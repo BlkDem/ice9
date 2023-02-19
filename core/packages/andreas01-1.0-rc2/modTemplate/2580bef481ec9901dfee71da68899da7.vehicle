@@ -1,0 +1,22 @@
+<?php return array (
+  'unique_key' => 'templatename',
+  'update_object' => true,
+  'namespace' => 'andreas01',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"andreas01-1.0-rc2\\/modTemplate\\/2580bef481ec9901dfee71da68899da7\\/0\\/","target":"return MODX_ASSETS_PATH . \'\\/templates\\/\';","name":"andreas01"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f32431bf86f6b80e090bfa8e6a687eda',
+  'package' => 'modx',
+  'class' => 'modTemplate',
+  'signature' => '2580bef481ec9901dfee71da68899da7',
+  'native_key' => NULL,
+  'object' => '{"id":null,"templatename":"Andreas01","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"<!DOCTYPE html PUBLIC \\"-\\/\\/W3C\\/\\/DTD XHTML 1.1\\/\\/EN\\" \\"http:\\/\\/www.w3.org\\/TR\\/xhtml11\\/DTD\\/xhtml11.dtd\\">\\r<html xmlns=\\"http:\\/\\/www.w3.org\\/1999\\/xhtml\\" xml:lang=\\"en\\">\\r<head>\\r<base href=\\"[[++site_url]]\\" \\/>\\r<meta http-equiv=\\"content-type\\" content=\\"text\\/html; charset=iso-8859-1\\" \\/>\\r<link rel=\\"stylesheet\\" type=\\"text\\/css\\" href=\\"assets\\/templates\\/andreas01\\/style\\/andreas01.css\\" media=\\"screen,projection\\" \\/>\\r<link rel=\\"stylesheet\\" type=\\"text\\/css\\" href=\\"assets\\/templates\\/andreas01\\/style\\/print.css\\" media=\\"print\\" \\/>\\r<title>[[++site_name]] | [[*pagetitle]]<\\/title>\\r<\\/head>\\r<body>\\r<div id=\\"wrap\\">\\r  <div id=\\"header\\">\\r    <h1>[[++site_name]]<\\/h1>\\r    <p><strong>\\"I can see you fly. You are an angel with wings, high above the ground!\\"<\\/strong><br \\/>(traditional haiku poem)<\\/p>\\r  <\\/div> <!-- end header -->\\r  <img id=\\"frontphoto\\" src=\\"assets\\/templates\\/andreas01\\/images\\/front.jpg\\" width=\\"760\\" height=\\"175\\" alt=\\"\\" \\/>\\r  <div id=\\"avmenu\\"> <!-- left sidebar -->\\r  <div class=\\"sideblock\\" id=\\"sideMenu\\">\\r  <h2>Navigation<\\/h2>\\r  [[Wayfinder? ]]\\r  <\\/div>    \\r  <\\/div> <!-- end avmenu -->\\r  <div id=\\"extras\\"> <!-- right sidebar -->\\r   <h3>More info:<\\/h3>\\r    <p>This is the third column, which can be used in many different ways. For example, it can be used for comments, site news, external links, ads or for more navigation links. It is all up to you!<\\/p>\\n    <h3>Version:<\\/h3>\\r    <p>andreas01 v1.2<\\/p>\\r  <\\/div> <!-- end extras -->\\r  <div id=\\"content\\">\\r    [[*content]]\\r  <\\/div> <!-- end content -->\\r  <div id=\\"footer\\">\\r    <p>&copy; 2005-2010 <a href=\\"mailto:[[++emailsender]]\\">[[++site_name]]<\\/a> - Content managed by <a href=\\"http:\\/\\/www.modxcms.com\\/\\">modX<\\/a><\\/p>  <\\/div> <!-- end footer -->\\r<\\/div> <!-- end wrap -->\\r<\\/body>\\r<\\/html>\\r\\r","locked":0,"properties":null}',
+);

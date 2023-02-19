@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'syntaxhighlighter',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8dbce2f50b286c3a2bb289a65fa802cd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'dd4e90e6146034ca9d3946c087033495',
+  'native_key' => 'syntaxhighlighter.theme',
+  'object' => '{"key":"syntaxhighlighter.theme","value":"Default","xtype":"textfield","namespace":"syntaxhighlighter","area":"general","editedon":null}',
+);

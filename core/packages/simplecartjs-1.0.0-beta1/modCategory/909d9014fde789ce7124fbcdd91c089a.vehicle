@@ -1,0 +1,122 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'ad96bcc13d121ad6aff27cbc23a3ff1d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":63,"source":0,"property_preprocess":0,"name":"simplecartjsInitTpl","description":"","editor_type":0,"category":22,"cache_type":0,"snippet":"  <script type=\\"text\\/javascript\\">\\n    \\/* simplecartjs init script *\\/\\n    simpleCart({\\n\\t\\/\\/ array representing the format and columns of the cart,\\n\\t\\/\\/ see the cart columns documentation\\n\\tcartColumns: [\\n\\t\\t{ attr: \\"name\\", label: \\"Name\\"},\\n\\t\\t{ view: \\"currency\\", attr: \\"price\\", label: \\"Price\\"},\\n\\t\\t{ view: \\"decrement\\", label: false},\\n\\t\\t{ attr: \\"quantity\\", label: \\"Qty\\"},\\n\\t\\t{ view: \\"increment\\", label: false},\\n\\t\\t{ view: \\"currency\\", attr: \\"total\\", label: \\"SubTotal\\" },\\n\\t\\t{ view: \\"remove\\", text: \\"Remove\\", label: false}\\n\\t],\\n\\n\\t\\/\\/ \\"div\\" or \\"table\\" - builds the cart as a \\n\\t\\/\\/ table or collection of divs\\n\\tcartStyle: \\"[[+cartStyle]]\\", \\n\\n\\t\\/\\/ how simpleCart should checkout, see the \\n\\t\\/\\/ checkout reference for more info \\n\\tcheckout: { \\n\\t\\ttype: \\"[[+checkout_type]]\\" , \\n\\t\\temail: \\"[[+checkout_email]]\\" \\n\\t},\\n\\n\\t\\/\\/ set the currency, see the currency \\n\\t\\/\\/ reference for more info\\n\\tcurrency: \\"[[+currency]]\\",\\n\\n\\t\\/\\/ collection of arbitrary data you may want to store \\n\\t\\/\\/ with the cart, such as customer info\\n\\tdata: {[[+data]]},\\n\\n\\t\\/\\/ set the cart langauge \\n\\t\\/\\/ (may be used for checkout)\\n\\tlanguage: \\"[[+language]]\\",\\n\\n\\t\\/\\/ array of item fields that will not be \\n\\t\\/\\/ sent to checkout\\n\\texcludeFromCheckout: [],\\n\\n\\t\\/\\/ custom function to add shipping cost\\n\\tshippingCustom: null,\\n\\n\\t\\/\\/ flat rate shipping option\\n\\tshippingFlatRate: [[+shippingFlatRate]],\\n\\n\\t\\/\\/ added shipping based on this value \\n\\t\\/\\/ multiplied by the cart quantity\\n\\tshippingQuantityRate: [[+shippingQuantityRate]],\\n\\n\\t\\/\\/ added shipping based on this value \\n\\t\\/\\/ multiplied by the cart subtotal\\n\\tshippingTotalRate: [[+shippingTotalRate]],\\n\\n\\t\\/\\/ tax rate applied to cart subtotal\\n\\ttaxRate: [[+taxRate]],\\n\\n\\t\\/\\/ true if tax should be applied to shipping\\n\\ttaxShipping: [[+taxShipping]],\\n\\n    });\\n  <\\/script>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"  <script type=\\"text\\/javascript\\">\\n    \\/* simplecartjs init script *\\/\\n    simpleCart({\\n\\t\\/\\/ array representing the format and columns of the cart,\\n\\t\\/\\/ see the cart columns documentation\\n\\tcartColumns: [\\n\\t\\t{ attr: \\"name\\", label: \\"Name\\"},\\n\\t\\t{ view: \\"currency\\", attr: \\"price\\", label: \\"Price\\"},\\n\\t\\t{ view: \\"decrement\\", label: false},\\n\\t\\t{ attr: \\"quantity\\", label: \\"Qty\\"},\\n\\t\\t{ view: \\"increment\\", label: false},\\n\\t\\t{ view: \\"currency\\", attr: \\"total\\", label: \\"SubTotal\\" },\\n\\t\\t{ view: \\"remove\\", text: \\"Remove\\", label: false}\\n\\t],\\n\\n\\t\\/\\/ \\"div\\" or \\"table\\" - builds the cart as a \\n\\t\\/\\/ table or collection of divs\\n\\tcartStyle: \\"[[+cartStyle]]\\", \\n\\n\\t\\/\\/ how simpleCart should checkout, see the \\n\\t\\/\\/ checkout reference for more info \\n\\tcheckout: { \\n\\t\\ttype: \\"[[+checkout_type]]\\" , \\n\\t\\temail: \\"[[+checkout_email]]\\" \\n\\t},\\n\\n\\t\\/\\/ set the currency, see the currency \\n\\t\\/\\/ reference for more info\\n\\tcurrency: \\"[[+currency]]\\",\\n\\n\\t\\/\\/ collection of arbitrary data you may want to store \\n\\t\\/\\/ with the cart, such as customer info\\n\\tdata: {[[+data]]},\\n\\n\\t\\/\\/ set the cart langauge \\n\\t\\/\\/ (may be used for checkout)\\n\\tlanguage: \\"[[+language]]\\",\\n\\n\\t\\/\\/ array of item fields that will not be \\n\\t\\/\\/ sent to checkout\\n\\texcludeFromCheckout: [],\\n\\n\\t\\/\\/ custom function to add shipping cost\\n\\tshippingCustom: null,\\n\\n\\t\\/\\/ flat rate shipping option\\n\\tshippingFlatRate: [[+shippingFlatRate]],\\n\\n\\t\\/\\/ added shipping based on this value \\n\\t\\/\\/ multiplied by the cart quantity\\n\\tshippingQuantityRate: [[+shippingQuantityRate]],\\n\\n\\t\\/\\/ added shipping based on this value \\n\\t\\/\\/ multiplied by the cart subtotal\\n\\tshippingTotalRate: [[+shippingTotalRate]],\\n\\n\\t\\/\\/ tax rate applied to cart subtotal\\n\\ttaxRate: [[+taxRate]],\\n\\n\\t\\/\\/ true if tax should be applied to shipping\\n\\ttaxShipping: [[+taxShipping]],\\n\\n    });\\n  <\\/script>"}',
+        'guid' => '1bc582d6fde651167b7b97e1afbbff0e',
+        'native_key' => 63,
+        'signature' => '8dce331385440b21cd4a89ee7f91d8d7',
+      ),
+      'b5d69597dd2428425b764a21d39311aa' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":65,"source":0,"property_preprocess":0,"name":"simplecartjsCart","description":"","editor_type":0,"category":22,"cache_type":0,"snippet":"<span class=\\"simpleCart_quantity\\"><\\/span> items - <span class=\\"simpleCart_total\\"><\\/span>\\n<a href=\\"javascript:;\\" class=\\"simpleCart_checkout\\">[[+checkout_text]]<\\/a>\\n<a href=\\"javascript:;\\" class=\\"simpleCart_empty\\">[[+empty_cart_text]]<\\/a>","locked":0,"properties":"a:2:{s:13:\\"checkout_text\\";a:7:{s:4:\\"name\\";s:13:\\"checkout_text\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:8:\\"Checkout\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:15:\\"empty_cart_text\\";a:7:{s:4:\\"name\\";s:15:\\"empty_cart_text\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:10:\\"Empty cart\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}}","static":0,"static_file":"","content":"<span class=\\"simpleCart_quantity\\"><\\/span> items - <span class=\\"simpleCart_total\\"><\\/span>\\n<a href=\\"javascript:;\\" class=\\"simpleCart_checkout\\">[[+checkout_text]]<\\/a>\\n<a href=\\"javascript:;\\" class=\\"simpleCart_empty\\">[[+empty_cart_text]]<\\/a>"}',
+        'guid' => 'a2686dacc8be5f7a1e50c33f046ddf74',
+        'native_key' => 65,
+        'signature' => '9100000e2fd792092db0be29acfbcca8',
+      ),
+      '55b6cefd969ec2bf9a6263a2584b7e82' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":64,"source":0,"property_preprocess":0,"name":"simplecartjsItem","description":"","editor_type":0,"category":22,"cache_type":0,"snippet":"<div class=\\"simpleCart_shelfItem\\">\\n  <h2 class=\\"item_name\\"> [[+item_name]] <\\/h2>\\n<p>  <input type=\\"text\\" value=\\"1\\" class=\\"item_Quantity\\"><br>\\n  <span class=\\"item_price\\">[[+item_price]]<\\/span><br>\\n  <a class=\\"item_add\\" href=\\"javascript:;\\"> [[+item_add_text]] <\\/a><\\/p>\\n<\\/div>\\n","locked":0,"properties":"a:3:{s:13:\\"item_add_text\\";a:7:{s:4:\\"name\\";s:13:\\"item_add_text\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:11:\\"Add to cart\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:9:\\"item_name\\";a:7:{s:4:\\"name\\";s:9:\\"item_name\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:16:\\"Sample Item Name\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:10:\\"item_price\\";a:7:{s:4:\\"name\\";s:10:\\"item_price\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:5:\\"$9.99\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}}","static":0,"static_file":"","content":"<div class=\\"simpleCart_shelfItem\\">\\n  <h2 class=\\"item_name\\"> [[+item_name]] <\\/h2>\\n<p>  <input type=\\"text\\" value=\\"1\\" class=\\"item_Quantity\\"><br>\\n  <span class=\\"item_price\\">[[+item_price]]<\\/span><br>\\n  <a class=\\"item_add\\" href=\\"javascript:;\\"> [[+item_add_text]] <\\/a><\\/p>\\n<\\/div>\\n"}',
+        'guid' => '62d54ff8039d348e41f3679f864463ec',
+        'native_key' => 64,
+        'signature' => 'b9a31dfe4bfcac91d4d388ceec6e9f8f',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '58d6cff685b5a57814b90e0d03580252' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":47,"source":1,"property_preprocess":1,"name":"simplecartjs","description":"","editor_type":0,"category":22,"cache_type":0,"snippet":"\\/* Assets *\\/\\n$scjsAssets = $modx->getOption(\'assets_url\').\'components\\/simplecartjs\\/\'; \\n$scjsFile = (isset($scjsMin) && (intval($scjsMin) > 0)) ? $scjsAssets.\'js\\/simpleCart.min.js\' : $scjsAssets.\'js\\/simpleCart.js\';\\n\\n\\/* Default values *\\/\\n$jQueryVersion = isset($jQueryVersion) ? $jQueryVersion : \'1.10.2\';\\n$jQueryExclude = (isset($jQueryExclude) && (intval($jQueryExclude) > 0)) ? true : false;\\n\\n$initTpl = isset($initTpl) ? $initTpl : \'simplecartjsInitTpl\';\\n\\n$cartStyle = isset($cartStyle) ? $cartStyle : \'div\';\\n$checkout_type = isset($checkout_type) ? $checkout_type : \'PayPal\';\\n$checkout_email = isset($checkout_email) ? $checkout_email : $modx->getOption(\'emailsender\');\\n$currency = isset($currency) ? $currency : \'USD\';\\n$data = isset($data) ? $data : \'\';\\n$language = isset($language) ? $language : \'english-us\';\\n$shippingFlatRate = isset($shippingFlatRate) ? $shippingFlatRate : \'0\';\\n$shippingQuantityRate = isset($shippingQuantityRate) ? $shippingQuantityRate : \'0\';\\n$shippingTotalRate = isset($shippingTotalRate) ? $shippingTotalRate : \'0\';\\n$taxRate = isset($taxRate) ? $taxRate : \'0\';\\n$taxShipping = isset($taxShipping) ? $taxShipping : \'false\';\\n\\n\\/* Check for required field *\\/\\nif(!$checkout_email) return \'WARNING: A checkout_email value must be specified!\';\\n\\n\\/* Register scripts *\\/\\nif(!$jQueryExclude) $modx->regClientScript(\'\\/\\/cdnjs.cloudflare.com\\/ajax\\/libs\\/jquery\\/\'.$jQueryVersion.\'\\/jquery.min.js\');\\n$modx->regClientScript($scjsFile);\\n\\n\\/* Register init chunk with default values *\\/\\n$modx->regClientHTMLBlock($modx->getChunk($initTpl,array(\\n  \'cartStyle\' => $cartStyle,\\n  \'checkout_type\' => $checkout_type,\\n  \'checkout_email\' => $checkout_email,\\n  \'currency\' => $currency,\\n  \'data\' => $data,\\n  \'language\' => $language,\\n  \'shippingFlatRate\' => $shippingFlatRate,\\n  \'shippingQuantityRate\' => $shippingQuantityRate,\\n  \'shippingTotalRate\' => $shippingTotalRate,\\n  \'taxRate\' => $taxRate,\\n  \'taxShipping\' => $taxShipping,\\n)));","locked":0,"properties":"a:14:{s:9:\\"cartStyle\\";a:7:{s:4:\\"name\\";s:9:\\"cartStyle\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:3:\\"div\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:14:\\"checkout_email\\";a:7:{s:4:\\"name\\";s:14:\\"checkout_email\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:17:\\"[[++emailsender]]\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:13:\\"checkout_type\\";a:7:{s:4:\\"name\\";s:13:\\"checkout_type\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:6:\\"PayPal\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:8:\\"currency\\";a:7:{s:4:\\"name\\";s:8:\\"currency\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:3:\\"USD\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:4:\\"data\\";a:7:{s:4:\\"name\\";s:4:\\"data\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:7:\\"initTpl\\";a:7:{s:4:\\"name\\";s:7:\\"initTpl\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:19:\\"simplecartjsInitTpl\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:13:\\"jQueryExclude\\";a:7:{s:4:\\"name\\";s:13:\\"jQueryExclude\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:13:\\"jQueryVersion\\";a:7:{s:4:\\"name\\";s:13:\\"jQueryVersion\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:6:\\"1.10.2\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:8:\\"language\\";a:7:{s:4:\\"name\\";s:8:\\"language\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:10:\\"english-us\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:16:\\"shippingFlatRate\\";a:7:{s:4:\\"name\\";s:16:\\"shippingFlatRate\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:1:\\"0\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:20:\\"shippingQuantityRate\\";a:7:{s:4:\\"name\\";s:20:\\"shippingQuantityRate\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:1:\\"0\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:17:\\"shippingTotalRate\\";a:7:{s:4:\\"name\\";s:17:\\"shippingTotalRate\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:1:\\"0\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:7:\\"taxRate\\";a:7:{s:4:\\"name\\";s:7:\\"taxRate\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:1:\\"0\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}s:11:\\"taxShipping\\";a:7:{s:4:\\"name\\";s:11:\\"taxShipping\\";s:4:\\"desc\\";s:0:\\"\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:5:\\"false\\";s:7:\\"lexicon\\";N;s:4:\\"area\\";s:12:\\"simplecartjs\\";}}","moduleguid":"","static":0,"static_file":"","content":"\\/* Assets *\\/\\n$scjsAssets = $modx->getOption(\'assets_url\').\'components\\/simplecartjs\\/\'; \\n$scjsFile = (isset($scjsMin) && (intval($scjsMin) > 0)) ? $scjsAssets.\'js\\/simpleCart.min.js\' : $scjsAssets.\'js\\/simpleCart.js\';\\n\\n\\/* Default values *\\/\\n$jQueryVersion = isset($jQueryVersion) ? $jQueryVersion : \'1.10.2\';\\n$jQueryExclude = (isset($jQueryExclude) && (intval($jQueryExclude) > 0)) ? true : false;\\n\\n$initTpl = isset($initTpl) ? $initTpl : \'simplecartjsInitTpl\';\\n\\n$cartStyle = isset($cartStyle) ? $cartStyle : \'div\';\\n$checkout_type = isset($checkout_type) ? $checkout_type : \'PayPal\';\\n$checkout_email = isset($checkout_email) ? $checkout_email : $modx->getOption(\'emailsender\');\\n$currency = isset($currency) ? $currency : \'USD\';\\n$data = isset($data) ? $data : \'\';\\n$language = isset($language) ? $language : \'english-us\';\\n$shippingFlatRate = isset($shippingFlatRate) ? $shippingFlatRate : \'0\';\\n$shippingQuantityRate = isset($shippingQuantityRate) ? $shippingQuantityRate : \'0\';\\n$shippingTotalRate = isset($shippingTotalRate) ? $shippingTotalRate : \'0\';\\n$taxRate = isset($taxRate) ? $taxRate : \'0\';\\n$taxShipping = isset($taxShipping) ? $taxShipping : \'false\';\\n\\n\\/* Check for required field *\\/\\nif(!$checkout_email) return \'WARNING: A checkout_email value must be specified!\';\\n\\n\\/* Register scripts *\\/\\nif(!$jQueryExclude) $modx->regClientScript(\'\\/\\/cdnjs.cloudflare.com\\/ajax\\/libs\\/jquery\\/\'.$jQueryVersion.\'\\/jquery.min.js\');\\n$modx->regClientScript($scjsFile);\\n\\n\\/* Register init chunk with default values *\\/\\n$modx->regClientHTMLBlock($modx->getChunk($initTpl,array(\\n  \'cartStyle\' => $cartStyle,\\n  \'checkout_type\' => $checkout_type,\\n  \'checkout_email\' => $checkout_email,\\n  \'currency\' => $currency,\\n  \'data\' => $data,\\n  \'language\' => $language,\\n  \'shippingFlatRate\' => $shippingFlatRate,\\n  \'shippingQuantityRate\' => $shippingQuantityRate,\\n  \'shippingTotalRate\' => $shippingTotalRate,\\n  \'taxRate\' => $taxRate,\\n  \'taxShipping\' => $taxShipping,\\n)));"}',
+        'guid' => 'f451035d56e16ac4139b10af69f7eaa4',
+        'native_key' => 47,
+        'signature' => 'c233c951a880ef95bbf6f2d757a5c810',
+      ),
+    ),
+    'Templates' => 
+    array (
+      'f5c7b25a1b9e3af7bfee3e6f2a0ddea1' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":9,"source":0,"property_preprocess":0,"templatename":"simplecartjsTemplate","description":"","editor_type":0,"category":22,"icon":"","template_type":0,"content":"<!DOCTYPE html>\\n<html>\\n<head>\\n<\\/head>\\n<body>\\n[[simplecartjs]]\\n\\n[[$simplecartjsItem?]]\\n\\n[[$simplecartjsCart?]]\\n\\n<\\/body>\\n<\\/html>","locked":0,"properties":null,"static":0,"static_file":""}',
+        'guid' => '45977d66f55f7147decbd9f68e432f51',
+        'native_key' => 9,
+        'signature' => 'ec014745a558813514bd961094403057',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'simplecartjs',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"simplecartjs-1.0.0-beta1\\/modCategory\\/909d9014fde789ce7124fbcdd91c089a\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"simplecartjs"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"simplecartjs-1.0.0-beta1\\/modCategory\\/909d9014fde789ce7124fbcdd91c089a\\/1\\/","target":"return \\"\\".MODX_ASSETS_PATH.\\"components\\/\\";","name":"simplecartjs"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6a56b161645ba422a35c313882857ace',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '909d9014fde789ce7124fbcdd91c089a',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"simplecartjs"}',
+);

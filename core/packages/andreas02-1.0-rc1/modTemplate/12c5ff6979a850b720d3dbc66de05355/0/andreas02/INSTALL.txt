@@ -1,0 +1,5 @@
+Installation:
+
+Upload the Andreas02 folder to /assets/templates.
+
+Copy the text of the Andreas02.template.html file to a new template in the Manager.

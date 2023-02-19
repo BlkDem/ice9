@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'acalia-1.0-beta1/xPDOTransportVehicle/d9f874df3dd6c1cd8abe28a948e397ec/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'phpthumbof-1.4.0-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'acalia',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"acalia-1.0-beta1\\/xPDOTransportVehicle\\/d9f874df3dd6c1cd8abe28a948e397ec.phpthumbof-1.4.0-pl.resolver","type":"php","name":"phpthumbof-1.4.0-pl"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"acalia-1.0-beta1\\/xPDOTransportVehicle\\/d9f874df3dd6c1cd8abe28a948e397ec.phpthumbof-1.4.0-pl.validator","type":"php","name":"phpthumbof-1.4.0-pl"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '50667816f0f25957c8ff40225a267a1c',
+  'package' => '',
+  'signature' => 'd9f874df3dd6c1cd8abe28a948e397ec',
+  'native_key' => '50667816f0f25957c8ff40225a267a1c',
+);

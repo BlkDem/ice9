@@ -1,0 +1,41 @@
+<?php
+include "dbc.php";
+
+$link = new mysqli($GLOBALS["host"], $GLOBALS["user"], $GLOBALS["password"], $GLOBALS["dbname"], $GLOBALS["port"], $GLOBALS["socket"])
+	or die ('Could not connect to the database server' . mysqli_connect_error());
+
+$query_det = "SELECT * from mqtt.sensors_log where sensor_id={$_GET['sensor_id']} order by log_date desc limit 0, 10";
+
+echo "<br><hr /><form action='' name='fmDet' class='contact_form'>
+      <table class='table_details'  width='100%'>
+      <tr>
+        <td>Дата</td>
+        <td>Сервис/Данные</td>
+        <td>Параметр</td>
+		<td>Значение</td>
+      </tr>";
+      $sql1 = mysqli_query($link, $query_det);
+     
+      
+      while ($result = mysqli_fetch_array($sql1)) {
+        //$ownerid = $result['owner_id'];         
+        echo "<tr>";
+        echo "<td>p_journal_details.php{$result['log_date']}</td>";
+        echo "<td>{$result['log_service']}<br>{$result['log_data']}</td>";
+        echo "<td>{$result['log_sensor_name']}</td>";
+        echo "<td>{$result['log_sensor_value']}</td>";
+        echo "</tr>";
+      }   
+echo  "
+
+
+      </table><div id='details'></div><br><hr />
+	  <div id='paButtons'>
+      <button class='square-button'>&#171;</button>
+      <button class='square-button'>&#8249;</button>
+      <button class='square-button'>&nbsp;</button>
+      <button class='square-button'>&#8250;</button>
+      <button class='square-button'>&#187;</button>
+      </div>
+	  </form>";
+?>

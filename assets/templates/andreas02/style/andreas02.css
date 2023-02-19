@@ -1,0 +1,638 @@
+
+body{
+padding:0;
+margin:0;
+font:76% tahoma, verdana, sans-serif;
+background:#e0e0e0;
+color:#303030;
+}
+form {
+  margin:10px; 
+  padding: 10px 10px;
+  background: #FBFBFB;  
+  border:1px solid #aaa;
+  
+
+}
+
+#form_bump {
+  margin:10px; 
+  padding: 10px 10px;
+  background: #F5F5F5;  
+  box-shadow: -3px -3px 5px rgba(44,108,104, 0.3);
+  background-image: url(../images/bg5.png);
+  background-position: right top;
+  background-size: contain;
+  
+  background-repeat: no-repeat;
+}
+
+h1{
+margin:0 0 20px 0;
+font-size:2.1em;
+font-weight:bold;
+}
+h2{
+margin:0 0 20px 0;
+font-size:1.6em;
+font-weight:normal;
+ 
+text-shadow: 0px 0px 3px rgba(220, 220, 220, .3);
+}
+h3{
+margin:10px 0px 10px 10px;
+font-size:1.4em;
+font-weight:normal;
+
+text-align:left;
+}
+h4{
+margin:20px 10px 10px 20px;
+font-size:1.1em;
+font-weight:bold;
+color:#555;
+}
+h5{
+margin:20px 10px 10px 20px;
+font-size:1.0em;
+font-weight:normal;
+color:#777;
+}
+
+p{
+margin:0 0 15px 0;
+line-height:1.5em;
+text-align:left;
+}
+a{
+text-decoration:none;
+color:#306C68;
+}
+a:hover{
+text-decoration:none;
+}
+a img{
+border:0;
+}
+.photo{
+padding:5px;
+display:block;
+margin:0 auto 15px auto;
+background-color:#f0f0f0;
+}
+.hide{
+display:none;
+}
+.right{
+text-align:right;
+}
+/* Top Links Menu */
+#toptabs{
+font-size:0.9em;
+width:760px;
+text-align:left;
+margin:auto;
+margin-bottom:-10px;
+}
+#toptabs ul{
+list-style:none;
+margin-bottom:none;
+padding-bottom:none;
+}
+#toptabs li{
+display:inline;
+margin-bottom:none;
+padding-bottom:none;
+}
+#toptabs a{
+padding:3px 5px 3px 5px;
+margin:0 0 0 0px;
+text-decoration:none;
+background:#f0f0f0 url(../images/corner2.gif) top right no-repeat;
+color:#306C68;
+border-bottom:1px solid #e0e0e0;
+}
+#toptabs a:hover{
+background:#fafafa url(../images/corner2.gif) top right no-repeat;
+border-bottom:1px solid #eaeaea;
+color:#505050;
+text-decoration:none;
+}
+/*********** Main Body **********/
+#container{
+clear:both;
+margin:0 auto 15px auto;
+width:730px;
+padding:1px 20px 30px 20px;
+box-shadow: 0 0 15px #306C68;
+background:#ffffff;
+}
+#logo{
+margin:15px 0 0 0;
+}
+/***** Logo *****/
+#logo h1 a{
+color:#303030;
+}
+#logo h1 a:hover{
+text-decoration:none;
+}
+/***** Main Menu *****/
+#navitabs{
+clear:both;
+margin-bottom:-8px;
+}
+#navitabs ul{
+list-style:none;
+}
+#navitabs li{
+display:inline;
+}
+#navitabs li ul{
+display:none;
+}
+#navitabs li{
+padding:4px 8px 4px 8px;
+margin:0 0 4px 0;
+text-decoration:none;
+letter-spacing:1px;
+background:#e0e0e0 url(../images/corner.gif) top right no-repeat;
+border-bottom:1px solid #ffffff;
+border-left:1px solid #ffffff;
+}
+#navitabs li:hover{
+text-decoration:none;
+background:#d0d0d0 url(../images/corner.gif) top right no-repeat;
+}
+#navitabs li.here{
+padding:4px 8px 5px 8px;
+color:#ffffff;
+margin:0 0 5px 0;
+text-decoration:none;
+background:#505050 url(../images/corner.gif) top right no-repeat;
+border-bottom:none;
+}
+/***** description block *****/
+#desc{
+height:180px;
+color:#ffffff;
+padding:0;
+background:#505050 url(../images/front11.jpg) top left no-repeat;
+clear:both;
+margin:5px 0 0 0;
+}
+#desc p{
+width:290px;
+font-size:1em;
+line-height:1.3em;
+padding:0 0 0 15px;
+}
+#desc h2{
+padding:15px 15px 0 15px;
+color:#ffffff;
+}
+#desc a{
+color:#ffffff;
+text-decoration:underline;
+}
+/***** extras *****/
+
+/***** Main Content *****/
+#main{
+width:560px;
+float:left;
+padding:0 20px 0 0;
+border-right:1px solid #d0d0d0;
+}
+.block{
+background:#f0f0f0;
+padding:15px;
+}
+/***** Sidebar *****/
+#sidebar{
+width:140px;
+float:right;
+margin-top:20px;
+}
+#sidebar p{
+font-size:0.9em;
+line-height:1.3em;
+margin:0 0 12px 0;
+}
+#sidebar h2{
+margin-top:20px;
+}
+/***** Side Submenu *****/
+#sideMenu ul{
+list-style:none;
+margin-left:0;
+padding:0;
+}
+#sideMenu a{
+text-align:left;
+display:block;
+width:120px;
+background:#f0f0f0 url(../images/corner.gif) top right no-repeat;
+padding:3px 4px 3px 8px;
+margin:5px 10px 5px 0;
+}
+#sideMenu a:hover{
+background:#e0e0e0 url(../images/corner.gif) top right no-repeat;
+text-decoration:none;
+}
+/***** Footer *****/
+#footer{
+clear:both;
+background:#fafafa;
+color:#808080;
+font-size:0.9em;
+padding:8px 0 8px 0;
+border-top:1px solid #d0d0d0;
+border-bottom:1px solid #d0d0d0;
+text-align:center;
+}
+#footer a{
+color:#808080;
+}
+
+.table_price {
+  border-collapse: collapse;
+  border-left: 0px solid #F79361;
+  border-right: 0px solid #F79361;
+  border-bottom: 0px solid #F79361;
+  font-family: "Lucida Grande", sans-serif;
+ }
+.table_price caption {
+  background: #F79361; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: oblique;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+.table_price td, .table_price th {
+  padding: 5px;
+}
+.table_price th {
+  text-align: left;
+  font-size: 18px;
+}
+.table_price tr:first-child {
+  background-color: rgba(48, 108, 104, .9);
+
+  font-style: normal;
+  font-weight:bold;
+  color: white;
+}
+
+.table_price tr:nth-child(2n) {
+  background-color: rgba(229, 229, 229, 0.5);
+}
+.table_price td:last-of-type {
+  text-align: right;
+}
+
+.table_details {
+  border-collapse: collapse;
+  border-left: 0px solid #F79361;
+  border-right: 0px solid #F79361;
+  border-bottom: 0px solid #F79361;
+  font-family: "Lucida Grande", sans-serif;
+ }
+.table_details caption {
+  background: #F79361; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: oblique;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+.table_details td, .table_details th {
+  padding: 5px;
+  text-align: center;
+}
+.table_details th {
+  text-align: left;
+  font-size: 18px;
+}
+
+.table_details tr {
+  text-align: left;
+
+  font-style: normal;
+  color: #111111;
+}
+
+.table_details tr:first-child {
+  text-align: left;
+  background-color: rgba(90, 160, 200, 0.95);
+  
+  font-style: normal;
+  font-weight:bold;
+  color: white;
+}
+
+.table_details tr:nth-child(2n) {
+  background-color: rgba(229, 229, 229, 0.5);
+}
+
+
+.table_details td:last-of-type {
+  text-align: right;
+}
+
+
+.table_details td:first-of-type {
+  text-align: right;
+}
+
+.checkbox input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 20px;
+}
+.checkbox__text {
+  position: relative;
+  padding: 0 0 0 60px;
+  top: 7px;
+  cursor: pointer;
+
+}
+.checkbox__text:before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CCCCCC;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+  transition: .2s;
+
+}
+.checkbox__text:after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 2px;
+  width: 21px;
+  height: 21px;
+  border-radius: 13px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: .2s;
+
+}
+.checkbox input:checked + .checkbox__text:before {
+  background: #306C68;
+
+}
+.checkbox input:checked + .checkbox__text:after {
+     
+  left: 26px;
+}
+.checkbox input:focus + .checkbox__text:before {
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(220,220,220,.7);
+
+}
+
+.contact_form {
+    background: #F5F5F5; 
+    background-image: url(../images/bg5.png);
+    position: relative;
+    box-shadow: 3px 3px 5px rgba(44,108,104, 0.3);
+      background-position: right top;
+  background-size: contain;
+  
+  background-repeat: no-repeat;
+}
+
+.contact_form select {
+    width: 210px;
+}
+
+.contact_form textarea {
+    width: 200px;
+}
+
+.contact_form input {
+    width: 200px;
+}
+
+input {
+    width: 100px;
+}
+
+.contact_form input, .contact_form textarea, .contact_form select{
+    border:1px solid #aaa;
+    
+    padding:4px 4px 4px 4px;
+    margin:2px 0px 2px 0px;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:3px;
+}
+
+.contact_form input:focus, .contact_form textarea:focus .contact_form select:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+}
+
+.label_css label {
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    background: #ccc;
+}
+
+#paButtons {
+  
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding:6px 0px 0px 0px;
+  align-items: center;
+}
+
+#paNavi {
+  
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  padding:6px 0px 0px 0px;
+  align-items: center;
+}
+
+.details {
+  padding:0px 0px 0px 00px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -10px;
+  
+}
+
+/* Start Rectangular Button */
+#r-b {display: inline; position: absolute; margin: 0; width: 80px; height: 32px; top: 108px; left: 0px;}
+
+hr {
+border: 0;
+margin:2px 10px 2px 10px;
+height: 1px;
+background: #306C68;
+background-image: -webkit-linear-gradient(left, #eee, #306C68, #eee);
+background-image: -moz-linear-gradient(left, #eee, #306C68, #eee);
+background-image: -ms-linear-gradient(left, #eee, #306C68, #eee);
+background-image: -o-linear-gradient(left, #eee, #306C68, #eee);
+}
+
+.button_g {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 2; position: relative; display: inline; color: #666; 
+text-shadow: 0px 1px 0px rgba(255,255,255,0.59); 
+background: #ececec; 
+padding: 6px 10px 7px 10px;
+outline: none; border: 1px solid #d8d8d8; 
+border-bottom: 1px solid #ccc; border-radius: 3px; cursor: pointer; overflow: visible; -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), 
+inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), 
+inset 0px 15px 14px rgba(255,255,255,0.57); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), 
+inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), 
+inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); 
+box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), 
+inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57);
+}
+
+.button_g:hover {color: #888; text-shadow: 0px 1px 0px rgba(255,255,255,0.69); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75);}
+
+.button_g:active {color: #696969; text-shadow: 0px 1px 0px rgba(255,255,255,0.53); 
+border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; 
+border-radius: 3px; -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), 
+inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20); 
+-moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), 
+inset 0px 1px 6px rgba(0,0,0,0.07), 
+inset 0px -15px 14px rgba(255,255,255,0.20); 
+-o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), 
+inset 0px 1px 6px rgba(0,0,0,0.07), 
+inset 0px -15px 14px rgba(255,255,255,0.20); 
+box-shadow: 0px 1px 0px rgba(255,255,255,0.58), 
+inset 0px 1px 6px rgba(0,0,0,0.07), 
+inset 0px -15px 14pxpx rgba(255,255,255,0.20);
+    
+}
+/* End Rectangular Button */
+
+/* Start Circle Buttons */
+#circle-buttons {display: inline; 
+
+text-align: center;
+
+align-items: center;
+}
+
+.circle-button {width: 28px; 
+height: 28px; 
+color: #666; 
+text-shadow: 0px 1px 0px rgba(255,255,255,0.59); 
+font-size: 12px; display: inline; 
+position: relative; 
+margin: 0px 2px 0px 2px; 
+background: #ececec; 
+outline: none; border: 1px solid #d8d8d8; border-bottom: 1px solid #ccc; border-radius: 100%; cursor: pointer; -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57);}
+
+.circle-button:hover {color: #888; text-shadow: 0px 1px 0px rgba(255,255,255,0.69); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75);}
+
+.circle-button:active {color: #696969; text-shadow: 0px 1px 0px rgba(255,255,255,0.53); border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20);}
+
+.circle-button.previous::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -7px -6px no-repeat;}
+
+.circle-button.next::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -43px -6px no-repeat;}
+
+.circle-button.add::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -79px -6px no-repeat;}
+
+.circle-button.tick::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -115px -6px no-repeat;}
+
+.circle-button.cross::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -151px -6px no-repeat;}
+/* End Circle Buttons */
+/* Start Circular Button */
+#c-b {display: inline; position: absolute; margin: 0; width: 80px; height: 32px; top: 154px; left: 0px;}
+
+.circular-button {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; position: relative; display: block; color: #666; text-shadow: 0px 1px 0px rgba(255,255,255,0.59); padding: 6px 20px 7px 20px; outline: none; background: #ececec; border: 1px solid #d8d8d8; border-bottom: 1px solid #ccc; border-radius: 30px; cursor: pointer; overflow: visible; -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57);}
+
+.circular-button:hover {color: #888; text-shadow: 0px 1px 0px rgba(255,255,255,0.69); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75);}
+
+.circular-button:active {color: #696969; text-shadow: 0px 1px 0px rgba(255,255,255,0.53); border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20); -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20); -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20);}
+/* End Circular Button */
+/* Start Media Buttons */
+#media-buttons {display: inline; 
+  
+position: absolute; right: 33px; width: auto; top: 203px; margin: 0; height: auto; cursor: default;}
+
+.media-button {width: 24px; height: 24px; color: #666; text-shadow: 0px 1px 0px rgba(255,255,255,0.59); font-size: 12px; display: inline; position: relative; margin: 0px 1px 0px 1px; background: #ececec; outline: none; border: 1px solid #d8d8d8; border-bottom: 1px solid #ccc; border-radius: 3px; cursor: pointer; -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.57); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.57); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.57); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.57);}
+
+.media-button:hover {color: #888; text-shadow: 0px 1px 0px rgba(255,255,255,0.69); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.75); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.75); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.75); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 12px 11px rgba(255,255,255,0.75);}
+
+.media-button:active {color: #696969; text-shadow: 0px 1px 0px rgba(255,255,255,0.53); border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -12px 11px rgba(255,255,255,0.20); -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -12px 11px rgba(255,255,255,0.20); -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -12px 11px rgba(255,255,255,0.20); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -12px 11px rgba(255,255,255,0.20);}
+
+.media-button.previous::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/mbui.png) -7px -4px no-repeat;}
+
+.media-button.pause::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/mbui.png) -37px -4px no-repeat;}
+
+.media-button.play::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/mbui.png) -67px -4px no-repeat;}
+
+.media-button.stop::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/mbui.png) -97px -4px no-repeat;}
+
+.media-button.next::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/mbui.png) -127px -4px no-repeat;}
+/* End Media Buttons */
+/* Start Square Buttons */
+#square-buttons {display: inline; position: absolute; left: 108px; width: auto; top: 151px; margin: 0; height: auto; cursor: default;}
+
+.square-button {width: 28px; height: 28px; color: #666; text-shadow: 0px 1px 0px rgba(255,255,255,0.59); font-size: 18px; display: inline; position: relative; 
+margin: 0px 2px 0px 2px; background: #ececec; outline: none; border: 1px solid #d8d8d8; border-bottom: 1px solid #ccc; border-radius: 3px; cursor: pointer; 
+-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+-o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57);}
+
+.square-button:hover {color: #888; text-shadow: 0px 1px 0px rgba(255,255,255,0.69); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75);}
+
+.square-button:active {color: #696969; text-shadow: 0px 1px 0px rgba(255,255,255,0.53); border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20);}
+
+.square-button.previous::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -7px -6px no-repeat;}
+
+.square-button.next::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -43px -6px no-repeat;}
+
+.square-button.add::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -79px -6px no-repeat;}
+
+.square-button.tick::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -115px -6px no-repeat;}
+
+.square-button.cross::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -151px -6px no-repeat;}
+/* End Square Buttons */
+.btnDet {width: 28px; height: 28px; color: #666; text-shadow: 0px 1px 0px rgba(255,255,255,0.59); font-size: 18px; display: inline; position: relative; 
+margin: 0px 2px 0px 2px; background: #ececec; outline: none; border: 1px solid #d8d8d8; border-bottom: 1px solid #ccc; border-radius: 3px; cursor: pointer; 
+-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+-o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57);}
+
+.btnDet:hover {color: #888; text-shadow: 0px 1px 0px rgba(255,255,255,0.69); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75);}
+
+.btnDet:active {color: #696969; text-shadow: 0px 1px 0px rgba(255,255,255,0.53); border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20);}
+
+.btnDet.previous::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -7px -6px no-repeat;}
+
+.btnDet.next::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -43px -6px no-repeat;}
+
+.btnDet.add::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -79px -6px no-repeat;}
+
+.btnDet.tick::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -115px -6px no-repeat;}
+
+.btnDet.cross::before {content: 'mb'; text-indent: -9999px; display: block; position: relative; width: 16px; height: 16px; background: transparent url(images/bui.png) -151px -6px no-repeat;}
+/* End btnDet */

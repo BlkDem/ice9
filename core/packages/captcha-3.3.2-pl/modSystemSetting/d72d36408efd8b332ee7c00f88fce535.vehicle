@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'captcha',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b81a367a975fdfadcb41b239852835d1',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd72d36408efd8b332ee7c00f88fce535',
+  'native_key' => 'captcha.enabled',
+  'object' => '{"key":"captcha.enabled","value":"0","xtype":"combo-boolean","namespace":"captcha","area":"captcha","editedon":null}',
+);

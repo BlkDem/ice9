@@ -1,0 +1,81 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '7f6e2f45e274b55c333b630d830b96a9' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":11,"name":"year","description":"","editor_type":0,"category":12,"cache_type":0,"snippet":"print date(\'Y\');","locked":0,"properties":"a:0:{}","moduleguid":""}',
+        'guid' => 'b78cea20c544d8b64c49073af3a37a7e',
+        'native_key' => 11,
+        'signature' => '9c77387b035012ba6b2298e73cb38a8d',
+      ),
+    ),
+    'Templates' => 
+    array (
+      '0866598bd57ad2b3ce2180361e0685cd' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":16,"templatename":"StyleVantage - Blue","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"<!DOCTYPE html PUBLIC \\"-\\/\\/W3C\\/\\/DTD XHTML 1.0 Strict\\/\\/EN\\" \\"http:\\/\\/www.w3.org\\/TR\\/xhtml1\\/DTD\\/xhtml1-strict.dtd\\">\\n\\n\\t\\n\\n<html xmlns=\\"http:\\/\\/www.w3.org\\/1999\\/xhtml\\" xml:lang=\\"en\\" lang=\\"en\\">\\n\\n<head>\\n\\n\\n<base href=\\"[[++site_url]]\\" \\/>\\n<meta name=\\"Description\\" content=\\"[[*description]]\\" \\/>\\n\\n<meta name=\\"Keywords\\" content=\\"[[*introtext]]\\" \\/>\\n\\n<meta http-equiv=\\"Content-Type\\" content=\\"text\\/html; charset=utf-8\\" \\/>\\n\\n<meta name=\\"Robots\\" content=\\"index,follow\\" \\/>\\n\\n\\t\\n\\n<link rel=\\"stylesheet\\" href=\\"\\/assets\\/templates\\/stylevantage-blue\\/images\\/Blue.css\\" type=\\"text\\/css\\" \\/>\\t\\n\\n \\n\\n<title>[[++site_name]]<\\/title>\\n\\n\\t\\n\\n<\\/head>\\n\\n\\n\\n<body>\\n\\n<!-- wrap starts here -->\\n\\n<div id=\\"wrap\\"> \\n\\n\\n\\n\\t<div id=\\"header\\">\\t\\n\\n\\t\\t\\t\\n\\n\\t\\t<h1 id=\\"logo\\">[[++site_name]]<\\/h1>\\n\\n\\t\\t<h2 id=\\"slogan\\">[[$slogan]]<\\/h2>\\t\\n\\n\\t\\t<!--\\n\\n\\t\\t<form method=\\"post\\" class=\\"searchform\\" action=\\"#\\">\\n\\n\\t\\t\\t<p><input type=\\"text\\" name=\\"search_query\\" class=\\"textbox\\" \\/>\\n\\n  \\t\\t\\t<input type=\\"submit\\" name=\\"search\\" class=\\"button\\" value=\\"Search\\" \\/><\\/p>\\n\\n\\t\\t<\\/form>-->\\n\\n\\t\\t\\n\\n\\t<\\/div>\\t\\t\\n\\n\\t\\t\\n\\n\\t<div id=\\"menu\\">\\n\\n\\t\\t<ul style=\\"border:0;\\">\\n\\n\\t\\t\\t<li>[[!Wayfinder? &startId=`0` &level=`1`!]]<\\/li>\\t\\t\\t\\n\\n\\t\\t<\\/ul>\\n\\n\\t<\\/div>\\n\\n\\t\\n\\n\\t<!-- content-wrap starts here -->\\t\\n\\n\\t<div id=\\"content-wrap\\">  \\n\\n\\t\\n\\n\\t\\t\\t<div id=\\"sidebar\\">\\n\\n\\t\\t\\t\\n\\n\\t\\t\\t\\t<h1>Sub-Menu<\\/h1>\\n\\n\\t\\t\\t\\t<ul class=\\"sidemenu\\">\\n\\t\\t\\t\\t<li>[[!Wayfinder? &level=`1`!]]<li>\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t<\\/ul>\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\n\\n\\t\\t\\t<\\/div>\\t\\t\\n\\n\\t\\n\\n\\t  \\t\\t<div id=\\"main\\"> \\n\\n\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t<a name=\\"TemplateInfo\\"><\\/a>\\n\\n\\t\\t\\t\\t<h1>[[*pagetitle]]<\\/h1>\\n\\n\\t\\t\\t\\t[[*content]]\\n\\n\\t\\t\\t\\t<br \\/>\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\n\\n\\t  \\t\\t<\\/div> \\t\\n\\n\\t\\t\\t\\n\\n\\t\\t\\t<div id=\\"rightbar\\">\\n\\n\\t\\t\\t\\n\\n\\t\\t\\t\\t[[$links]]\\n\\n\\t\\t\\t\\n\\n\\t\\t\\t<\\/div>  \\t\\t\\n\\n\\t\\n\\n\\t<!-- content-wrap ends here -->\\t\\n\\n\\t<\\/div>\\n\\n\\t\\n\\n<!-- wrap ends here -->\\n\\n<\\/div>\\t\\t\\n\\n\\n\\n<!-- footer starts here -->\\t\\t\\n\\n\\t\\t<div id=\\"footer\\">\\n\\n\\t\\t\\t<p>\\n\\n\\t\\t\\t&copy; copyright [[year]] <strong>[[++site_name]]<\\/strong>&nbsp;&nbsp;  \\n\\n\\t\\t\\t\\n\\n\\t\\t\\tDesign by: <a href=\\"http:\\/\\/www.styleshout.com\\/\\">styleshout<\\/a> | \\n\\n\\t\\t\\tValid: <a href=\\"http:\\/\\/validator.w3.org\\/check\\/referer\\">XHTML<\\/a> | \\n\\n\\t\\t\\t<a href=\\"http:\\/\\/jigsaw.w3.org\\/css-validator\\/check\\/referer\\">CSS<\\/a>\\n\\n\\t\\t\\t\\n\\n\\t\\t\\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\t\\t\\n\\n\\t\\t\\t<a href=\\"[[++site_url]]\\">Home<\\/a> | <!-- <a href=\\"Green.html\\">Sitemap<\\/a> | <a href=\\"Green.html\\">RSS Feed<\\/a> -->\\n\\n\\t\\t\\t<\\/p>\\t\\t\\n\\n\\t\\t<\\/div>\\t\\n\\n<!-- footer ends here -->\\t\\n\\n\\n\\n<\\/body>\\n\\n<\\/html>","locked":0,"properties":"a:0:{}"}',
+        'guid' => '56e3be6738a7ae9625ea27bd27327e89',
+        'native_key' => 16,
+        'signature' => '1530ed6fc6d21d737761ecb9f3714c7e',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'stylevantageblue',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"stylevantageblue-1.0-1\\/modCategory\\/ee6f0b5d93064f4a868577180dd9d064\\/0\\/","target":"return \\"\\".MODX_ASSETS_PATH.\\"\\/templates\\/\\";","name":"stylevantage-blue"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c10858a216add759ca123a92a4e058de',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'ee6f0b5d93064f4a868577180dd9d064',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"Stylevantage - Blue"}',
+);

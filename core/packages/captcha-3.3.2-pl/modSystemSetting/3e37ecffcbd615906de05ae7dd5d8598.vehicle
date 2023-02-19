@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'captcha',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2fc3f01ba38f1932634cfccc652a8a29',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3e37ecffcbd615906de05ae7dd5d8598',
+  'native_key' => 'captcha.height',
+  'object' => '{"key":"captcha.height","value":"80","xtype":"textfield","namespace":"captcha","area":"captcha","editedon":null}',
+);

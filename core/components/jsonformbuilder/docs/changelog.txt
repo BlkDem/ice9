@@ -1,0 +1,99 @@
+Changelog for JsonFormBuilder
+=========================================
+JsonFormBuilder 1.0.28-pl - 19th May 2016
+=========================================
+- Updated email footer to use replyTo email address when available.
+- Bug fix - Forms were not using reply-to address when set (updates to allow better handling of recent Hotmail / Gmail DMARC policy changes).
+- Bug fix - minimum length rule no longer fails if no value.
+- Bug fix for toJSON method - wasn't skipping files properly.
+- Added bug fix relating to Files still being attached when showInEmail
+
+JsonFormBuilder 1.0.27-pl - 1st Dec 2014
+=========================================
+- Changed many private vars and methods to protected so they can be extended.
+- Fixed broken custom validation message from maximumLength on checkbox groups.
+- Added more helpful error messaging in a  few places.
+- Fixed issues with requires vs empty (a few "0" chars were being marked as empty).
+- Added better string encoding for validation messages
+- Fix bug in checkbox value to allow "0" as a value.
+- Fix bug in select to allow "0" as a valid value.
+
+JsonFormBuilder 1.0.26-pl - 9th Nov 2014
+=========================================
+- Bug fix for checkbox group (Thanks Ian!, please give that a try).
+- Fixed several validation issues (Thanks startexe for the report).
+- Fix bug in minlength/maxlength for JsonFormBuilder_elementCheckboxGroup
+- Minor bug for for postVal($field) function.
+
+JsonFormBuilder 1.0.25-pl - 29th Sep 2014
+=========================================
+- Add ability to have condition rules applied on change of a radio group option (previously only worked with a select field).
+- Add ability to add custom errors via the new addError element method.
+- Add ability to retrieve email content manually (handy to record in database table).
+- Fix bug with Checkbox group and minimum length (possible to require multiple item to be ticked, but only if something is ticked, users need to make the field required to force users to tick a box).
+- Clean up old redundant hook, $GLOBALS hacks and database entry code.
+- Change from filter_input_array(INPUT_POST); to $_POST (simply to allow scripts to modify values on the fly, a severe limitation to filter_input_array IMHO).
+- Add JsonFormBuilder-record-in-db example.
+
+JsonFormBuilder 1.0.24-pl - 31st Aug 2014
+=========================================
+- Fix empty email field bug (was not possible to have a non required email ruled field until this fix).
+- Add URL rule type (and added website address in full examples)
+- A few small scss/css modifications in the assets folder.
+
+JsonFormBuilder 1.0.23-pl - 25th July 2014
+=========================================
+- Fix to stop uppercase file extensions messing with fileExtValid checks.
+
+JsonFormBuilder 1.0.22-pl - 8th June 2014
+=========================================
+- Bug fixes to stop a few warnings writing to the MODX error logs.
+
+JsonFormBuilder 1.0.21-pl - 26th May 2014
+=========================================
+- Add ability to read and modify form action via get/setFormAction methods (handy for custom posts to non MODX resources).
+- Remove old legacy posthook code.
+
+JsonFormBuilder 1.0.20-pl - 8th May 2014
+=========================================
+- Added placeholders for JSON forms. Can now use placeholders such as [[++emailsender]] or [[+postVal.email_address]] etc.
+- Added ability to add any attribute you like to a form element. You can now add class, placeholder etc using "extraElementAttribs":{"placeholder":"test","class":"testing"} with JSON or the setExtraElementAttribs() method.
+
+JsonFormBuilder 1.0.19-pl - 30th Mar 2014
+=========================================
+- Add ability to disable spam protection.
+
+JsonFormBuilder 1.0.18-pl - 10th Mar 2014
+=========================================
+- Form rules and conditions for JSON formats.
+- Add example for manually handling form submission and checking validation.
+- Restructure of validate/form build / js build.
+
+JsonFormBuilder 1.0.17-pl - 10th Mar 2014
+=========================================
+- Basic JSON form example - In process of building JSON form processing.
+- More JSON functions, specify now inline, add a file path or as a chunk.
+
+JsonFormBuilder 1.0.15-pl - 10th Mar 2014
+=========================================
+- Custom rules implemented.
+- Add ability to specify CC and BCC with string email address or array of addresses. Add examples to doc forms.
+- Added Auto Responders and extra debug info for email addresses.
+- Validate modx object. Throw error if email addresses are not valid when sending (cant be before send as some email addresses may be dynamic after submit).
+- Add conditions example.
+
+JsonFormBuilder 1.0.14-pl - 1st Mar 2014
+=========================================
+- Added conditionShow rule type.
+- Added extra debugging errors for rules on elements that do not exist in form.
+- Finished off conditional required.
+- Clean up, add ability to specify conditional rule (really for required only). Still need to add PHP validation.
+- Add in primitive spam protection (hidden field and minimum submit time).
+
+JsonFormBuilder 1.0.12-pl - 22nd Feb 2014
+=========================================
+- Added file upload validation for file extensions and file size.
+- Added ability to add validation directly on form elements without a FormRule (for more simple validation methods like mentioned above).
+- Added extra debug info in errors for empty elements being passed into FormRules.
+- Bug fixes with Matrix.
+- Fixed up some typos (Thanks Chris).

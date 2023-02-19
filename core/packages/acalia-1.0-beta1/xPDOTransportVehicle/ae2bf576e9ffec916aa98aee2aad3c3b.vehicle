@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'acalia-1.0-beta1/xPDOTransportVehicle/ae2bf576e9ffec916aa98aee2aad3c3b/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'getpage-1.2.3-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'acalia',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"acalia-1.0-beta1\\/xPDOTransportVehicle\\/ae2bf576e9ffec916aa98aee2aad3c3b.getpage-1.2.3-pl.resolver","type":"php","name":"getpage-1.2.3-pl"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"acalia-1.0-beta1\\/xPDOTransportVehicle\\/ae2bf576e9ffec916aa98aee2aad3c3b.getpage-1.2.3-pl.validator","type":"php","name":"getpage-1.2.3-pl"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '1daaba7390d6d5dac47f7573fc00cba0',
+  'package' => '',
+  'signature' => 'ae2bf576e9ffec916aa98aee2aad3c3b',
+  'native_key' => '1daaba7390d6d5dac47f7573fc00cba0',
+);

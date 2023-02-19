@@ -1,0 +1,86 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '12a85eadc5952d1f4f7d5e763347e7f2' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":10,"name":"year","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"print date (\'Y\');","locked":0,"properties":"a:0:{}","moduleguid":""}',
+        'guid' => '73bbffae14570c8e625b0f74b6a86f92',
+        'native_key' => 10,
+        'signature' => 'bea9fa57c2271a2b50d5905d53b051a4',
+      ),
+    ),
+    'Templates' => 
+    array (
+      '29863d58579e95ba81cebc0ca89d0ff1' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":12,"templatename":"Uncomplicated","description":"","editor_type":0,"category":10,"icon":"","template_type":0,"content":"<!DOCTYPE html PUBLIC \\"-\\/\\/W3C\\/\\/DTD XHTML 1.0 Transitional\\/\\/EN\\" \\"http:\\/\\/www.w3.org\\/TR\\/xhtml1\\/DTD\\/xhtml1-transitional.dtd\\">\\n\\n<html xmlns=\\"http:\\/\\/www.w3.org\\/1999\\/xhtml\\">\\n\\n<head>\\n\\n<meta http-equiv=\\"Content-Type\\" content=\\"text\\/html; charset=utf-8\\" \\/>\\n<meta name=\\"keywords\\" content=\\"[[*introtext]]\\" \\/>\\n<meta name=\\"description\\" content=\\"[[*description]]\\" \\/>\\n\\n<link type=\\"text\\/css\\" media=\\"screen\\" rel=\\"stylesheet\\" href=\\"\\/assets\\/templates\\/uncomplicated\\/style.css\\" \\/>\\n\\n<title>[[*pagetitle]] - [[++site_name]]<\\/title>\\n\\n<\\/head>\\n\\n\\n\\n<body>\\n\\n\\n\\n<div id=\\"container\\">\\n\\n\\n\\n\\t<div id=\\"header\\">\\n\\n\\t\\t[[++site_name]]\\n\\n\\t<\\/div>\\n\\n\\n\\n\\t<ul id=\\"tabnav\\">\\n\\n\\t\\t<li>\\n\\t\\t[[!Wayfinder? &startId=`0`!]]\\n\\t\\t<\\/li>\\n\\n\\t<\\/ul>\\n\\n\\t\\n\\n\\t<div id=\\"sidebar\\">\\n\\n\\t\\t<!--<h3>Archives<\\/h3>\\n\\n\\t\\t<ul>\\n\\n\\t\\t\\t<li><a href=\\"#\\">July 2006<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">June 2006<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">May 2006<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">April 2006<\\/a><\\/li>\\n\\n\\t\\t<\\/ul>\\n\\n\\t\\t<h3>Links<\\/h3>\\n\\n\\t\\t<ul>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Link 1<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Link 2<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Link 3<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Link 4<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Link 5<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Link 6<\\/a><\\/li>\\n\\n\\t\\t<\\/ul>\\n\\n\\t\\t<h3>Sponsors<\\/h3>\\n\\n\\t\\t<ul>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Sponsor 1<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Sponsor 2<\\/a><\\/li>\\n\\n\\t\\t\\t<li><a href=\\"#\\">Sponsor 3<\\/a><\\/li>\\n\\n\\t\\t<\\/ul>-->\\n\\n\\t<\\/div>\\t\\n\\n\\t\\n\\n\\t<div id=\\"content\\">\\n\\n\\t\\t<h2>[[*pagetitle]]<\\/h2>\\n\\t\\t\\n\\t\\t[[*content]]\\n\\t\\t\\n\\n\\t<\\/div>\\n\\n\\t<div id=\\"footer\\">\\n\\n\\t<p><a href=\\"http:\\/\\/validator.w3.org\\/check?uri=referer\\">Valid XHTML 1.0<\\/a> | Copyright &copy; [[year]] <a href=\\"[[++site_url]]\\">[[++site_name]]<\\/a> | Design by <a href=\\"http:\\/\\/www.jdavidmacor.com\\">super j man<\\/a><\\/p>\\n\\n\\t<\\/div>\\n\\n\\t\\n\\n<\\/div>\\n\\n\\n\\n<\\/body>\\n\\n<\\/html>\\n\\n","locked":0,"properties":"a:0:{}"}',
+        'guid' => '9b159e06666f93e23e9b412f79534596',
+        'native_key' => 12,
+        'signature' => 'bb623c6650ab3654edc3251690bd6496',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'uncomplicated',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"uncomplicated-1.0-2\\/modCategory\\/2eed7ccc8b814f04b5eb5393f53bd68f\\/0\\/","target":"return MODX_ASSETS_PATH . \'templates\\/\';","name":"uncomplicated"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"uncomplicated-1.0-2\\/modCategory\\/2eed7ccc8b814f04b5eb5393f53bd68f\\/1\\/","target":"return \\"\\".MODX_ASSETS_PATH.\\"\\/templates\\/\\";","name":"uncomplicated"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '55ae1cfa72a8c5debecade96fdec2959',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '2eed7ccc8b814f04b5eb5393f53bd68f',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"Uncomplicated"}',
+);

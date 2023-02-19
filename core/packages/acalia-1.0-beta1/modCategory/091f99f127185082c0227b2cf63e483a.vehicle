@@ -1,0 +1,232 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'fb0d71af1ee186fba639048fa2735bb9' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":14,"source":0,"property_preprocess":0,"name":"block.Acalia.asideRight","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"<h2>\\u0414\\u0440\\u0443\\u0433\\u0438\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438<\\/h2>\\n<div class=\\"home_news\\">\\n[[$list.Acalia.news:default=`\\n  [[*parent:eq=`0`:then=``:else=`[[getResources?\\n    &parents=`[[*parent]]`\\n    &tpl=`tpl.Acalia.links`\\n    &limit=`5`\\n    &sortBy=`publishedon`\\n    &sortDir=`DESK`\\n    &includeTVs=`1`\\n    &includeContent=`1`\\n  ]]`\\n ]]`\\n]]\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<h2>\\u0414\\u0440\\u0443\\u0433\\u0438\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438<\\/h2>\\n<div class=\\"home_news\\">\\n[[$list.Acalia.news:default=`\\n  [[*parent:eq=`0`:then=``:else=`[[getResources?\\n    &parents=`[[*parent]]`\\n    &tpl=`tpl.Acalia.links`\\n    &limit=`5`\\n    &sortBy=`publishedon`\\n    &sortDir=`DESK`\\n    &includeTVs=`1`\\n    &includeContent=`1`\\n  ]]`\\n ]]`\\n]]\\n<\\/div>"}',
+        'guid' => '59495d3e20ca84ea3a67803f1548a441',
+        'native_key' => 14,
+        'signature' => 'd2d29c9e5a6a673a966f29e9cb17a84c',
+      ),
+      '4513bd064bf7f9e04032d75e3023a54e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":15,"source":0,"property_preprocess":0,"name":"block.Acalia.footer","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"        \\t<div class=\\"copyright\\"><a href=\\"http:\\/\\/ilyaut.ru\\/\\" target=\\"_blank\\">\\u0411\\u043b\\u043e\\u0433 \\u0418\\u043b\\u044c\\u0438 \\u0423\\u0442\\u043a\\u0438\\u043d\\u0430<\\/a> | <a href=\\"http:\\/\\/ilyaut.ru\\/templates\\" target=\\"_blank\\">\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d\\u044b \\u0434\\u043b\\u044f MODX<\\/a><\\/div>\\n        \\n        \\t<div class=\\"footer_links\\">\\n                [[Wayfinder? &startId=`0` &level=`1` &rowTpl=`tpl.Acalia.footer.row`]]    \\n            <\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"        \\t<div class=\\"copyright\\"><a href=\\"http:\\/\\/ilyaut.ru\\/\\" target=\\"_blank\\">\\u0411\\u043b\\u043e\\u0433 \\u0418\\u043b\\u044c\\u0438 \\u0423\\u0442\\u043a\\u0438\\u043d\\u0430<\\/a> | <a href=\\"http:\\/\\/ilyaut.ru\\/templates\\" target=\\"_blank\\">\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d\\u044b \\u0434\\u043b\\u044f MODX<\\/a><\\/div>\\n        \\n        \\t<div class=\\"footer_links\\">\\n                [[Wayfinder? &startId=`0` &level=`1` &rowTpl=`tpl.Acalia.footer.row`]]    \\n            <\\/div>"}',
+        'guid' => 'ffb405faa3445d0679640c0e35893c4c',
+        'native_key' => 15,
+        'signature' => 'b1a00bc8052213effea73bfca5705810',
+      ),
+      'da40450a57e061f48d9fdcd469beed68' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":11,"source":0,"property_preprocess":0,"name":"block.Acalia.head","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"  <meta charset=\\"utf-8\\">\\n  <title>[[*pagetitle]]<\\/title>\\n  <base href=\\"[[++site_url]]\\">\\n  <meta name=\\"description\\" content=\\"[[*introtext:replace=` \\"== \\u00ab`:replace=`\\"==\\u00bb`]]\\">\\n  <meta name=\\"keywords\\" content=\\"[[*description:replace=` \\"== \\u00ab`:replace=`\\"==\\u00bb`]]\\">\\n  <link rel=\\"stylesheet\\" href=\\"\\/assets\\/components\\/acalia\\/style.css\\" type=\\"text\\/css\\">\\n  <link rel=\\"icon\\" href=\\"\\/favicon.ico\\" type=\\"image\\/x-icon\\">\\n  <link rel=\\"shortcut icon\\" href=\\"\\/favicon.ico\\" type=\\"image\\/x-icon\\">\\n  <script type=\\"text\\/javascript\\" src=\\"https:\\/\\/ajax.googleapis.com\\/ajax\\/libs\\/jquery\\/1.7.2\\/jquery.min.js\\"><\\/script>\\n  <!--[if IE]><script src=\\"http:\\/\\/html5shiv.googlecode.com\\/svn\\/trunk\\/html5.js\\"><\\/script><![endif]-->\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.core.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.superfish.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.jcarousel.pack.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.easing.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.scripts.js\\"><\\/script>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"  <meta charset=\\"utf-8\\">\\n  <title>[[*pagetitle]]<\\/title>\\n  <base href=\\"[[++site_url]]\\">\\n  <meta name=\\"description\\" content=\\"[[*introtext:replace=` \\"== \\u00ab`:replace=`\\"==\\u00bb`]]\\">\\n  <meta name=\\"keywords\\" content=\\"[[*description:replace=` \\"== \\u00ab`:replace=`\\"==\\u00bb`]]\\">\\n  <link rel=\\"stylesheet\\" href=\\"\\/assets\\/components\\/acalia\\/style.css\\" type=\\"text\\/css\\">\\n  <link rel=\\"icon\\" href=\\"\\/favicon.ico\\" type=\\"image\\/x-icon\\">\\n  <link rel=\\"shortcut icon\\" href=\\"\\/favicon.ico\\" type=\\"image\\/x-icon\\">\\n  <script type=\\"text\\/javascript\\" src=\\"https:\\/\\/ajax.googleapis.com\\/ajax\\/libs\\/jquery\\/1.7.2\\/jquery.min.js\\"><\\/script>\\n  <!--[if IE]><script src=\\"http:\\/\\/html5shiv.googlecode.com\\/svn\\/trunk\\/html5.js\\"><\\/script><![endif]-->\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.core.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.superfish.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.jcarousel.pack.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.easing.js\\"><\\/script>\\n  <script type=\\"text\\/javascript\\" src=\\"\\/assets\\/components\\/acalia\\/js\\/jquery.scripts.js\\"><\\/script>"}',
+        'guid' => 'ec9a68e7181d1eae291a5fbe8d273515',
+        'native_key' => 11,
+        'signature' => '9478346ea7b106b55cfd0c94cbe83526',
+      ),
+      'b83c6239cc92edd09ee0cf132380406d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":12,"source":0,"property_preprocess":0,"name":"block.Acalia.header","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"            <div id=\\"logo\\"><a href=\\"index.html\\"><img src=\\"\\/assets\\/components\\/acalia\\/images\\/logo.gif\\" alt=\\"\\" title=\\"\\" border=\\"0\\" \\/><\\/a><\\/div>\\n[[$block.Acalia.menu]]","locked":0,"properties":null,"static":0,"static_file":"","content":"            <div id=\\"logo\\"><a href=\\"index.html\\"><img src=\\"\\/assets\\/components\\/acalia\\/images\\/logo.gif\\" alt=\\"\\" title=\\"\\" border=\\"0\\" \\/><\\/a><\\/div>\\n[[$block.Acalia.menu]]"}',
+        'guid' => '2d544edcb19b4a0dee47fe1295e0aa35',
+        'native_key' => 12,
+        'signature' => 'd9ca99124927c1411498f67e61a23294',
+      ),
+      '7ff07dc175ca8bed7cc0703e936cab09' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":21,"source":1,"property_preprocess":0,"name":"block.Acalia.introBlocks","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"  <div style=\\"float: left; width:20px;height: 20px;\\"><\\/div>\\n  [[getResources?\\n    &tpl=`tpl.Acalia.childs`\\n    &parents=`-1`\\n    &resources=`[[$config.Acalia.introResources]]`\\n    &limit=`3`\\n    &sortBy=`menuindex`\\n    &sortDir=`ASC`\\n    &includeTVs=`1`\\n    &includeContent=`1`\\n  ]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"  <div style=\\"float: left; width:20px;height: 20px;\\"><\\/div>\\n  [[getResources?\\n    &tpl=`tpl.Acalia.childs`\\n    &parents=`-1`\\n    &resources=`[[$config.Acalia.introResources]]`\\n    &limit=`3`\\n    &sortBy=`menuindex`\\n    &sortDir=`ASC`\\n    &includeTVs=`1`\\n    &includeContent=`1`\\n  ]]"}',
+        'guid' => 'f6b9b0fcd6e3d10457938ea2593f3cd9',
+        'native_key' => 21,
+        'signature' => '484791f6baf025f3c54a8fd100dfe7a6',
+      ),
+      'eaa9f9637214f345cad83da8fa67dd40' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":16,"source":0,"property_preprocess":0,"name":"block.Acalia.menu","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"            <div id=\\"menu\\">\\n[[Wayfinder? &startId=`0` &level=`1`]]\\n            <\\/div>","locked":0,"properties":null,"static":0,"static_file":"","content":"            <div id=\\"menu\\">\\n[[Wayfinder? &startId=`0` &level=`1`]]\\n            <\\/div>"}',
+        'guid' => 'e5beb60ac721168710fc68c01f9bfbec',
+        'native_key' => 16,
+        'signature' => '54f2d7c96f4767109315af1f1f6bdb9f',
+      ),
+      '0975121ef425d84083ed631fc3332cd5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":20,"source":0,"property_preprocess":0,"name":"block.Acalia.slider","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"        <div class=\\"middle_banner\\">               \\n           \\n<div class=\\"featured_slider\\">\\n      \\t<!-- begin: sliding featured banner -->\\n         <div id=\\"featured_border\\" class=\\"jcarousel-container\\">\\n            <div id=\\"featured_wrapper\\" class=\\"jcarousel-clip\\">\\n               <ul id=\\"featured_images\\" class=\\"jcarousel-list\\">\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl1.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl2.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl3.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl4.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n               <\\/ul>\\n            <\\/div>\\n            <div id=\\"featured_positioner_desc\\" class=\\"jcarousel-container\\">\\n               <div id=\\"featured_wrapper_desc\\" class=\\"jcarousel-clip\\">\\n                  <ul id=\\"featured_desc\\" class=\\"jcarousel-list\\">                 \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li> \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li> \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li>  \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li> \\n                  <\\/ul>\\n               <\\/div>\\n\\n            <\\/div>\\n            <ul id=\\"featured_buttons\\" class=\\"clear_fix\\">\\n               <li>1<\\/li>\\n               <li>2<\\/li>\\n               <li>3<\\/li>\\n               <li>4<\\/li>\\n            <\\/ul>\\n         <\\/div>\\n         <!-- end: sliding featured banner -->\\n<\\/div>\\n          \\n        \\n        \\n        <\\/div><!---------------------------------end of middle banner-------------------------------->\\n        ","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"        <div class=\\"middle_banner\\">               \\n           \\n<div class=\\"featured_slider\\">\\n      \\t<!-- begin: sliding featured banner -->\\n         <div id=\\"featured_border\\" class=\\"jcarousel-container\\">\\n            <div id=\\"featured_wrapper\\" class=\\"jcarousel-clip\\">\\n               <ul id=\\"featured_images\\" class=\\"jcarousel-list\\">\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl1.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl2.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl3.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n                  <li><img src=\\"[[phpthumbof? input=`\\/assets\\/components\\/acalia\\/img\\/sl4.jpg` &options=`w=965&h=280&zc=1`]]\\" width=\\"965\\" height=\\"280\\" alt=\\"\\" \\/><\\/li>\\n               <\\/ul>\\n            <\\/div>\\n            <div id=\\"featured_positioner_desc\\" class=\\"jcarousel-container\\">\\n               <div id=\\"featured_wrapper_desc\\" class=\\"jcarousel-clip\\">\\n                  <ul id=\\"featured_desc\\" class=\\"jcarousel-list\\">                 \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li> \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li> \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li>  \\n                     <li>\\n                        <div>\\n                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\n                           <\\/p>\\n                        <\\/div>\\n                     <\\/li> \\n                  <\\/ul>\\n               <\\/div>\\n\\n            <\\/div>\\n            <ul id=\\"featured_buttons\\" class=\\"clear_fix\\">\\n               <li>1<\\/li>\\n               <li>2<\\/li>\\n               <li>3<\\/li>\\n               <li>4<\\/li>\\n            <\\/ul>\\n         <\\/div>\\n         <!-- end: sliding featured banner -->\\n<\\/div>\\n          \\n        \\n        \\n        <\\/div><!---------------------------------end of middle banner-------------------------------->\\n        "}',
+        'guid' => 'ca38729483d5ca7cf982329ec53c163e',
+        'native_key' => 20,
+        'signature' => 'f18126773e3c52e3bf17df90c1afc5b3',
+      ),
+      '3beb450d8ccd0a4bfc1fe2c8c9c17f9e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":51,"source":0,"property_preprocess":0,"name":"config.Acalia.introResources","description":"id \\u0434\\u043e\\u043a\\u0443\\u043c\\u0435\\u043d\\u0442\\u043e\\u0432, \\u043a\\u043e\\u0442\\u043e\\u0440\\u044b\\u0435 \\u0434\\u043e\\u043b\\u0436\\u043d\\u044b \\u0431\\u044b\\u0442\\u044c \\u0432\\u044b\\u0432\\u0435\\u0434\\u0435\\u043d\\u044b \\u043d\\u0430 \\u0433\\u043b\\u0430\\u0432\\u043d\\u043e\\u0439 (\\u0447\\u0435\\u0440\\u0435\\u0437 \\u0437\\u0430\\u043f\\u044f\\u0442\\u0443\\u044e). \\u041f\\u0440\\u0438\\u043c\\u0435\\u0440:\\n\\n4,7,12","editor_type":0,"category":18,"cache_type":0,"snippet":"","locked":0,"properties":null,"static":0,"static_file":"","content":""}',
+        'guid' => '955956c53cdb5da6d442778ad7bf12d7',
+        'native_key' => 51,
+        'signature' => '0b1c79a7867bc11a92f443b9c74dc9ce',
+      ),
+      '6dc58fdc495661769c402b8699f576e7' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":52,"source":1,"property_preprocess":0,"name":"config.Acalia.newsResource","description":"id \\u0440\\u0435\\u0441\\u0443\\u0440\\u0441\\u0430 \\u0441 \\u043d\\u043e\\u0432\\u043e\\u0441\\u0442\\u044f\\u043c\\u0438. \\u041f\\u0440\\u0438\\u043c\\u0435\\u0440:\\n\\n12","editor_type":0,"category":18,"cache_type":0,"snippet":"","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":""}',
+        'guid' => '84b709fb1a27dcacb2b0d5ff78ec20b4',
+        'native_key' => 52,
+        'signature' => '1e4796d39043ce84fe7156b5f50d212e',
+      ),
+      'b96e6436d8c8a6123e48e66e7a082d68' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":17,"source":0,"property_preprocess":0,"name":"tpl.Acalia.childs","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"<div class=\\"left_block\\" style=\\"padding: 0 17px 10px 0;\\">\\n        <h2 class=\\"home_title\\" style=\\"width: 295px; padding-left: 0;\\">[[+pagetitle]]<\\/h2>\\n        <div class=\\"home_subtitle\\" style=\\"width: 295px; padding-left: 0; margin-bottom: 8px;\\">[[+content:striptags:limit=`35`]]...<\\/div>\\n        [[+tv.img:eq=``:then=``:else=`<div class=\\"home_section_thumb\\">\\n        <img src=\\"[[+tv.img:phpthumbof=`w=292&h=88&zc=1&fltr[]=wmt|[[+id]]||||||-20||||`]]\\">\\n        <\\/div>`]]\\n        <p>[[+content:striptags:limit=`220`]]...<\\/p>\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"more\\" style=\\"color: #B52025;\\">\\u0427\\u0438\\u0442\\u0430\\u0442\\u044c \\u0434\\u0430\\u043b\\u044c\\u0448\\u0435<\\/a>\\n<div class=\\"clear\\"><\\/div>\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"left_block\\" style=\\"padding: 0 17px 10px 0;\\">\\n        <h2 class=\\"home_title\\" style=\\"width: 295px; padding-left: 0;\\">[[+pagetitle]]<\\/h2>\\n        <div class=\\"home_subtitle\\" style=\\"width: 295px; padding-left: 0; margin-bottom: 8px;\\">[[+content:striptags:limit=`35`]]...<\\/div>\\n        [[+tv.img:eq=``:then=``:else=`<div class=\\"home_section_thumb\\">\\n        <img src=\\"[[+tv.img:phpthumbof=`w=292&h=88&zc=1&fltr[]=wmt|[[+id]]||||||-20||||`]]\\">\\n        <\\/div>`]]\\n        <p>[[+content:striptags:limit=`220`]]...<\\/p>\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"more\\" style=\\"color: #B52025;\\">\\u0427\\u0438\\u0442\\u0430\\u0442\\u044c \\u0434\\u0430\\u043b\\u044c\\u0448\\u0435<\\/a>\\n<div class=\\"clear\\"><\\/div>\\n<\\/div>"}',
+        'guid' => 'f4a8522ff3af7165509d7e472168ab1c',
+        'native_key' => 17,
+        'signature' => 'cd6452369f3e83c9e07f0c1c3c78bef4',
+      ),
+      '9cc10e104dbda5b81c2eb470c92d04c5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":50,"source":0,"property_preprocess":0,"name":"tpl.Acalia.footer.row","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"<a href=\\"[[+wf.link]]\\" title=\\"[[+wf.title]]\\">[[+wf.linktext]]<\\/a>","locked":0,"properties":null,"static":0,"static_file":"","content":"<a href=\\"[[+wf.link]]\\" title=\\"[[+wf.title]]\\">[[+wf.linktext]]<\\/a>"}',
+        'guid' => '78b50e5619b5964937db35e33eaeacad',
+        'native_key' => 50,
+        'signature' => '5ec4b6863a25de25343e763199e870b8',
+      ),
+      '68ef3ffbcd07939de73193c569b77bcb' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":22,"source":0,"property_preprocess":0,"name":"tpl.Acalia.links","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"<a href=\\"[[~[[+id]]]]\\">[[+content:striptags:limit=`100`]]<\\/a>","locked":0,"properties":null,"static":0,"static_file":"","content":"<a href=\\"[[~[[+id]]]]\\">[[+content:striptags:limit=`100`]]<\\/a>"}',
+        'guid' => '679b9d163f4333adb731d1e6d6665b83',
+        'native_key' => 22,
+        'signature' => '09c09a2d610dd0221104dd76398be68f',
+      ),
+    ),
+    'Templates' => 
+    array (
+      'c8a2c0e8d641ac4aaf267f7a11937c25' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"templatename":"main.Acalia","description":"","editor_type":0,"category":7,"icon":"","template_type":0,"content":"<!DOCTYPE html>\\n<html>\\n<head>\\n[[$block.Acalia.head]]\\n<\\/head>\\n<body>\\n<div id=\\"wrap\\">\\n<div class=\\"top_corner\\"><\\/div>\\n<div id=\\"main_container\\">\\n<div id=\\"header\\">\\n[[$block.Acalia.header]]\\n<\\/div>\\n[[$block.Acalia.slider]]\\n<div class=\\"center_content\\">\\n[[$block.Acalia.introBlocks]]\\n\\n    \\n    <div class=\\"left_block_wide\\">\\n        <h1>[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\n        [[*content]]\\n    <\\/div>\\n    \\n  <\\/div>\\n  <div class=\\"right_block\\">\\n    <h2>\\u041d\\u043e\\u0432\\u044b\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u0438<\\/h2>\\n    <div class=\\"home_news\\">\\n      [[$list.Acalia.news]]\\n    <\\/div>\\n  <\\/div>\\n  <div class=\\"clear\\"><\\/div>\\n<\\/div>\\n<div class=\\"footer\\">\\n[[$block.Acalia.footer]]\\n<\\/div>\\n<\\/div><\\/div>\\n<\\/body>\\n<\\/html>","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => 'afd21b24349d8f180ebadc200226bea7',
+        'native_key' => 2,
+        'signature' => '53938728638ccae44b8fd0b7c3441ce9',
+      ),
+      '2af818bc15ccbed40d66f2b5d0401785' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"templatename":"inner.Acalia","description":"","editor_type":0,"category":7,"icon":"","template_type":0,"content":"<!DOCTYPE html>\\n<html>\\n<head>\\n[[$block.Acalia.head]]\\n<\\/head>\\n<body>\\n<div id=\\"wrap\\">\\n<div class=\\"top_corner\\"><\\/div>\\n<div id=\\"main_container\\">\\n<div id=\\"header\\">\\n[[$block.Acalia.header]]\\n<\\/div>\\n<div class=\\"center_content_pages\\">\\n  <div class=\\"left_content\\">\\n    <div class=\\"block_wide\\">\\n        <h1>[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\n        [[*content]]\\n        [[$list.Acalia.childs]]\\n    <\\/div>\\n  <\\/div>\\n  <div class=\\"right_block\\">\\n[[$block.Acalia.asideRight]]\\n  <\\/div>\\n  <div class=\\"clear\\"><\\/div>\\n<\\/div>\\n<div class=\\"footer\\">\\n[[$block.Acalia.footer]]\\n<\\/div>\\n<\\/div><\\/div>\\n<\\/body>\\n<\\/html>","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => '9a0e61ad16a729a4ae6504405b6a4266',
+        'native_key' => 1,
+        'signature' => '76ccdd867d75f6d5bbc98af31d3e479d',
+      ),
+    ),
+    'TemplateVars' => 
+    array (
+      '9446e39f8af25a1a7a7d55bd9eaeae93' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"type":"image","name":"img.Acalia","caption":"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435","description":"","editor_type":0,"category":10,"locked":0,"elements":"","rank":0,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:0:{}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+        'guid' => '5a6461bf10017652ac7357d27cdb1016',
+        'native_key' => 1,
+        'signature' => '1c99dc88a8950c71cafc287fac7401ab',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'acalia',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"acalia-1.0-beta1\\/modCategory\\/091f99f127185082c0227b2cf63e483a\\/0\\/","target":"return \\"\\".MODX_ASSETS_PATH.\\"components\\/\\";","name":"acalia"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"acalia-1.0-beta1\\/modCategory\\/091f99f127185082c0227b2cf63e483a.resolve.tvt.resolver","type":"php","name":"resolve.tvt"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2bd54a6fbb1b4089743b357fac45d0f9',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '091f99f127185082c0227b2cf63e483a',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"Acalia"}',
+);

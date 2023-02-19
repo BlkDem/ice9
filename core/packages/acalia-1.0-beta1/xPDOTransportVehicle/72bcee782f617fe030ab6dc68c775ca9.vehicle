@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'acalia-1.0-beta1/xPDOTransportVehicle/72bcee782f617fe030ab6dc68c775ca9/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'wayfinder-2.3.3-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'namespace' => 'acalia',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"acalia-1.0-beta1\\/xPDOTransportVehicle\\/72bcee782f617fe030ab6dc68c775ca9.wayfinder-2.3.3-pl.resolver","type":"php","name":"wayfinder-2.3.3-pl"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"acalia-1.0-beta1\\/xPDOTransportVehicle\\/72bcee782f617fe030ab6dc68c775ca9.wayfinder-2.3.3-pl.validator","type":"php","name":"wayfinder-2.3.3-pl"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '1d1a28712f45d38004d826c61b10c279',
+  'package' => '',
+  'signature' => '72bcee782f617fe030ab6dc68c775ca9',
+  'native_key' => '1d1a28712f45d38004d826c61b10c279',
+);

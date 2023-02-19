@@ -1,0 +1,54 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      'ef2c39a2cc2b30df145f16ddffc1a904' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"JsonFormBuilder-fromJSON","description":"Shorthand method of creating a simple form with JSON syntax.","editor_type":0,"category":0,"cache_type":0,"snippet":"\\nrequire_once $modx->getOption(\'core_path\',null,MODX_CORE_PATH).\'components\\/jsonformbuilder\\/model\\/jsonformbuilder\\/JsonFormBuilderFromJson.class.php\';\\n$o_JFBfJ = new JsonFormBuilderFromJson($modx);\\nif(isset($jsonTpl)){\\n    $o_JFBfJ->setJsonDataFromChunk($jsonTpl);\\n}elseif(isset($jsonFile)){\\n    $o_JFBfJ->setJsonDataFromFile($jsonFile);\\n}elseif(isset($json)){\\n    $o_JFBfJ->setJsonData($json);\\n}\\nreturn $o_JFBfJ->output();","locked":0,"properties":null,"moduleguid":"","static":0,"static_file":"","content":"\\nrequire_once $modx->getOption(\'core_path\',null,MODX_CORE_PATH).\'components\\/jsonformbuilder\\/model\\/jsonformbuilder\\/JsonFormBuilderFromJson.class.php\';\\n$o_JFBfJ = new JsonFormBuilderFromJson($modx);\\nif(isset($jsonTpl)){\\n    $o_JFBfJ->setJsonDataFromChunk($jsonTpl);\\n}elseif(isset($jsonFile)){\\n    $o_JFBfJ->setJsonDataFromFile($jsonFile);\\n}elseif(isset($json)){\\n    $o_JFBfJ->setJsonData($json);\\n}\\nreturn $o_JFBfJ->output();"}',
+        'guid' => '00bc289e947083b7dccea58995237924',
+        'native_key' => 1,
+        'signature' => '3e1450b15b626542a18b1420b7908bfc',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'jsonformbuilder',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"jsonformbuilder-1.0.28-pl\\/modCategory\\/9d248e581fd06bb2a6cf40338b0c6b4b\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"jsonformbuilder"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"jsonformbuilder-1.0.28-pl\\/modCategory\\/9d248e581fd06bb2a6cf40338b0c6b4b\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"jsonformbuilder"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e83baa37df33f9ba57f69274fb4e246b',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '9d248e581fd06bb2a6cf40338b0c6b4b',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"JsonFormBuilder","rank":0}',
+);

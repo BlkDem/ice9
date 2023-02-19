@@ -1,0 +1,224 @@
+@mixin box-sizing( $type: border-box ) {
+    -webkit-box-sizing: $type;
+    -moz-box-sizing: $type;
+    -o-box-sizing: $type;
+    -ms-box-sizing: $type;
+    box-sizing: $type;
+}
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+    -webkit-box-shadow:$top $left $blur $color #{$inset};
+    -moz-box-shadow:$top $left $blur $color #{$inset};
+    box-shadow:$top $left $blur $color #{$inset};
+}
+
+@mixin transition($properties: all, $duration: .3s, $easing: ease-out) {
+    @if length($properties) > 1 {
+        transition-property: $properties;
+        transition-duration: $duration;
+        transition-timing-function: $easing;
+    } @else {
+        transition: $properties $duration $easing;
+    }
+}
+
+$borderCol:#dddddd;
+$errorCol:#FF0000;
+$typeCol:#555555;
+$labelCol:#666666;
+$focusCol:#f7f7f7;
+                    
+/* JsonFormBuilder base rules */
+.form{
+    h1,h2,h3,h4{
+        clear:both;
+    }
+    .clear{
+        clear:both;
+    } 
+
+    .formSegWrap{
+        padding-top:5px;
+        vertical-align:top;
+        > label{
+            display:block;
+            padding:2px 0px 2px 0px;
+            cursor:pointer;
+            color:$labelCol;
+        }
+        .mainLabel:after{
+            content:":";
+        }
+        .elWrap{
+            padding:2px 10px 2px 0px;
+            input[type="text"], textarea, select, input[type="password"]{
+                width:100%;
+                border:1px solid #BBBBBB;
+                border-radius:2px;
+                
+                padding:8px;
+                color:$typeCol;
+                
+                @include transition();
+                @include box-shadow(2px, 3px, 3px, rgba(0, 0, 0, 0.08), inset);
+                @include box-sizing(border-box);
+                
+                &:focus{
+                    background-color:$focusCol;
+                    border-color:#838383;  
+                }
+                &.error{
+                    background-color:#ffe8e8;
+                    border:1px solid #c04242;
+                    color:#c04242;
+                }
+            }
+
+            input[type="radio"].error,input[type="checkbox"].error{
+                box-shadow: 0 0 3px $errorCol;
+                border: 1px solid $errorCol;
+            }
+            input[type="submit"], input[type="button"], input[type="reset"]{
+                border:1px solid #CCCCCC;
+                padding:8px;
+                min-width:110px;
+                background-color:$focusCol;
+                color:$typeCol;
+                cursor:pointer;
+                border-radius:2px;
+                @include transition();
+                @include box-shadow(2px, 3px, 3px, rgba(0, 0, 0, 0.08), outset);
+                @include box-sizing(border-box);
+                &:hover{
+                    background-color:#eeeeee;
+                }
+            }
+        }
+        table.matrix {
+            border-collapse: collapse;
+            border-spacing: 0;
+            table-layout : fixed;
+            width:100%;
+            th{
+                background-color:#F7F7F7;
+                font-size:85%;
+            }
+            th,td{
+                padding:3px;
+                border-bottom: 1px solid $borderCol;
+                border-right: 1px solid $borderCol;
+                font-size:85%;
+            }
+            th.columnHead{
+                text-align:center;
+                border-top:1px solid $borderCol;
+            }
+            th.rowHead{
+                text-align:left;
+                border-left:1px solid $borderCol;
+            }
+
+            th.spaceCell{
+                background-color:transparent;
+            }
+            .optionCell{
+                text-align:center;
+            }
+        }
+        &.elementCheckbox{
+            .mainElLabel{
+                display: inline-block;
+                margin-left:5px;
+                vertical-align: middle;
+            }
+            .elWrap{
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+        &.elementCheckboxGroup{
+            .checkboxWrap{
+                .checkboxEl{
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                >label{
+                    display: inline-block;
+                    margin-left:5px;
+                    vertical-align: middle; 
+                }
+            }
+        }
+        &.required .mainElLabel:after{
+            content:" *";
+            color:$errorCol;
+        }
+        &.elementDate select{
+            width:auto;
+            margin-right:5px;
+        }
+        /* example extra classes */
+        &.full{
+            width:100%;
+            clear:both;
+        }
+        &.half{
+            width:50%;
+            float:left;
+        }
+        &.third{
+            width:33.3%;
+            float:left;
+        }
+        &.quart{
+            width:25%;
+            float:left;
+        }
+    }
+
+    .formSegWrap_submit, .formSegWrap_reset{
+        float:left;
+        width:auto;
+        margin:10px 10px 10px 0px; 
+    }
+    label.mainLabelError{
+        color:#990000;
+    }
+
+    .errorContainer{
+        display:block; /* for Non jQuery Validate form errors with multiple warnings */
+        padding-top:2px;
+        label{
+            font-size:85%;
+            display:block;
+            color:$errorCol;
+            clear:both;
+            cursor:pointer;
+            span{
+                display:block;
+            }
+        }
+    }
+
+    .process_errors_wrap{
+        color:$errorCol;
+    }
+
+    .radioWrap{
+        clear:both;
+        label{
+            display:inline-block;
+            width:80%;
+            padding:2px;
+            cursor:pointer;
+        }
+        .radioEl{
+            float:left;
+            clear:both;
+        }
+    }
+
+    .tiny .elWrap span.after:after, .tiny .elWrap span.after:before{
+        content:"*";
+        padding-left:2px;
+    }
+}

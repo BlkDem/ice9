@@ -1,0 +1,250 @@
+/* andreas01 - an open source xhtml/css website layout by Andreas Viklund (http://andreasviklund.com). Made for OSWD.org, free to use for any purpose as long as the proper credits are given to the original author.
+
+Version: 1.2 (Oct 21, 2005)
+
+Screen layout: */
+
+body{
+margin:0 auto;
+padding:0;
+font:76% Verdana,Tahoma,Arial,sans-serif;
+background:#f4f4f4 url(../images/bg.gif) top center repeat-y;
+color:#303030;
+}
+
+#wrap{
+background:#ffffff;
+color:#303030;
+margin:0 auto;
+width:760px;
+}
+
+#header{
+clear:both;
+margin:20px 0 0 0;
+padding:0;
+height:45px;
+}
+
+#header h1{
+width:250px;
+margin:5px 20px 0;
+float:left;
+}
+
+#header p{
+width:500px;
+float:right;
+text-align:center;
+color:#a0a0a0;
+margin:0 0 10px 0;
+font-size:0.8em;
+line-height:1.2em;
+background-color:inherit;
+}
+
+#frontphoto{
+margin:0 0 10px 0;
+border:0;
+}
+
+#avmenu{
+clear:left;
+float:left;
+width:150px;
+margin:0 0 10px 0;
+padding:0;
+font-size:0.9em;
+}
+.announce{
+margin:10px 0 10px 0;
+padding:10px;
+width:130px;
+color:#505050;
+background-color:#f4f4f4;
+line-height:1.3em;
+}
+
+#extras{
+float:right;
+width:120px;
+margin:0 0 10px 0;
+padding:0;
+font-size:0.9em;
+line-height:1.5em;
+}
+
+#extras p{
+margin:0 0 1.5em 0;
+}
+
+#content{
+margin:0 130px 20px 160px;
+border-left:1px solid #f0f0f0;
+border-right:1px solid #f0f0f0;
+padding:0 10px 0 10px;
+line-height:1.6em;
+text-align:left;
+}
+
+#content h2{
+font-size:1.5em;
+margin:0 0 0.5em 0;
+}
+
+#content img{
+padding:1px;
+display:inline;
+background:#cccccc;
+color:#303030;
+border:4px solid #f0f0f0;
+}
+
+h3{
+font-size:1.3em;
+margin:0 0 10px 0;
+}
+
+a{
+text-decoration:none;
+color:#286ea0;
+}
+
+a:hover{
+text-decoration:underline;
+color:#286ea0;
+}
+
+a img{
+border:0;
+}
+
+#footer{
+clear:both;
+margin:0 auto;
+padding:10px 0 20px 0;
+border-top:4px solid #f0f0f0;
+width:760px;
+text-align:center;
+color:#808080;
+font-size:0.9em;
+}
+
+#footer a{
+color:#808080;
+text-decoration:none;
+}
+
+#footer a:hover{
+text-decoration:underline;
+}
+
+.left{
+margin:10px 10px 5px 0;
+float:left;
+}
+
+.right{
+margin:10px 0 5px 10px;
+float:right;
+}
+
+.textright{
+text-align:right;
+}
+
+.center{
+text-align:center;
+}
+
+.small{
+font-size:0.8em;
+}
+
+.bold{
+font-weight:bold;
+}
+
+.hide{
+display:none;
+}
+/* side menu */
+#sideMenu ul {
+    list-style:none;
+    width:150px;
+    padding:0;
+    }
+#sideMenu a {
+    font-weight:bold;
+    height:20px;
+    text-decoration:none;
+    color:#505050;
+    display:block;
+    padding:6px 0 0 10px;
+    background:#f4f4f4;
+    border-left:4px solid #cccccc;
+    font-size:1.1em;
+	}
+#sideMenu li.here a {
+    color:#3f729f;
+    
+    }
+#sideMenu div.subdiv a {
+    color:#505050;
+    }
+#sideMenu div.subdiv li.here a {
+    color:#3f729f;
+    }    
+#sideMenu a:hover, #sideMenu div.subdiv a:hover, #sideMenu li.here a:hover {
+    background:#eaeaea;
+    color:#286ea0;
+    border-left:4px solid #286ea0;
+	}
+#sideMenu ul li ul li a {
+    }
+
+.table_price {
+  border-collapse: collapse;
+  border-left: 0px solid #F79361;
+  border-right: 0px solid #F79361;
+  border-bottom: 0px solid #F79361;
+  font-family: "Lucida Grande", sans-serif;
+ }
+.table_price caption {
+  background: #F79361; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+  color: white;
+  font-family: "Roboto Slab",serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+}
+.table_price td, .table_price th {
+  padding: 10px;
+}
+.table_price th {
+  text-align: left;
+  font-size: 18px;
+}
+.table_price tr:nth-child(2n) {
+  background: #E5E5E5;
+}
+.table_price td:last-of-type {
+  text-align: center;
+}
+.table_price a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #BBBBBB;
+  box-shadow: 2px 2px 0 0 #777777;
+  position: relative;
+}
+.table_price a:hover {
+  box-shadow: none;
+  top: 2px;
+  left: 2px;
+}

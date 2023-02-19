@@ -1,0 +1,22 @@
+<?php return array (
+  'unique_key' => 'templatename',
+  'update_object' => true,
+  'namespace' => 'andreas02',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"andreas02-1.0-rc1\\/modTemplate\\/12c5ff6979a850b720d3dbc66de05355\\/0\\/","target":"return MODX_ASSETS_PATH . \'\\/templates\\/\';","name":"andreas02"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1168d8d7b23d57e0910d9e9b0b6ab085',
+  'package' => 'modx',
+  'class' => 'modTemplate',
+  'signature' => '12c5ff6979a850b720d3dbc66de05355',
+  'native_key' => NULL,
+  'object' => '{"id":null,"templatename":"Andreas02","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"<!DOCTYPE html PUBLIC \\"-\\/\\/W3C\\/\\/DTD XHTML 1.1\\/\\/EN\\" \\"http:\\/\\/www.w3.org\\/TR\\/xhtml11\\/DTD\\/xhtml11.dtd\\">\\n<html xmlns=\\"http:\\/\\/www.w3.org\\/1999\\/xhtml\\" xml:lang=\\"en\\">\\n<head>\\n<meta http-equiv=\\"content-type\\" content=\\"text\\/html; charset=[(modx_charset)]\\" \\/>\\n<title>[[++site_name]] | [[*pagetitle]]<\\/title>\\n<link rel=\\"stylesheet\\" type=\\"text\\/css\\" href=\\"assets\\/templates\\/andreas02\\/style\\/andreas02.css\\" media=\\"screen,projection\\" \\/>\\n<link rel=\\"stylesheet\\" type=\\"text\\/css\\" href=\\"assets\\/templates\\/andreas02\\/style\\/print.css\\" media=\\"print\\" \\/>\\n<!--[if lte IE 6]>\\n<style type=\\"text\\/css\\" media=\\"screen, tv, projection\\">\\nbody { behavior: url(assets\\/js\\/csshover.htc); }\\n<\\/style>\\n<script type=\\"text\\/javascript\\" src=\\"assets\\/js\\/sleight.js\\"><\\/script>\\n<![endif]-->\\n<\\/head>\\n<body>\\n\\n<div id=\\"toptabs\\">\\n[[Wayfinder?startId=`1` &level=`2`]]\\n<\\/div> <!-- end toptabs -->\\n\\n<div id=\\"container\\">\\n\\n<div id=\\"logo\\">\\n<h1><a href=\\"[[~[[++site_start]]]]\\">[[++site_name]]<\\/a><\\/h1>\\n<\\/div> <!-- end logo -->\\n\\n\\n\\n<div id=\\"navitabs\\">\\n<h2 class=\\"hide\\">Site menu:<\\/h2>\\n[[Wayfinder? &startId=`0` &level=`1`]]\\n<\\/div> <!-- end navitabs -->\\n\\n\\t\\n\\n<div id=\\"desc\\">\\n<h2>Welcome to andreas02!<\\/h2>\\n<p>This is the second design I made for <a href=\\"http:\\/\\/oswd.org\\">OSWD.org<\\/a>. This time, I made a 2-column layout featuring two versions of my CSS tab menu. The design is made with XHTML and CSS, and it has no tables. To give some suggestions on how the design can be used, I have filled it with some example content.<\\/p>\\n<p class=\\"right\\"><a href=\\"#\\">Read more...<\\/a><\\/p>\\n<\\/div> <!-- end desc -->\\n\\n    \\n\\n<div id=\\"main\\">\\n  [[*content]]\\n<\\/div> <!-- end main -->\\n\\n<div id=\\"sidebar\\">\\n<div id=\\"sideMenu\\">\\n[[Wayfinder? &startId=`[[*id]]` &displayStart=`1`]]\\n<\\/div> <!-- end sideMenu -->\\n<h3>Wise words:<\\/h3>\\n<p>\\"It happens every day: information overload! Time for a reboot...\\"<br \\/>\\n(traditional haiku poem)<\\/p>\\n<\\/div> <!-- end sidebar -->\\n\\n<div id=\\"footer\\">\\n&copy; 2007 <a href=\\"mailto:[[++emailsender]]\\">[[++site_name]]<\\/a> | Content managed by <a href=\\"http:\\/\\/www.modxcms.com\\">MODx<\\/a> | Design by <a href=\\"http:\\/\\/andreasviklund.com\\">Andreas Viklund<\\/a>.\\n<\\/div> <!-- end footer -->\\n<\\/div> <!-- end container -->\\n\\n<\\/body>\\n<\\/html>\\n","locked":0,"properties":null}',
+);

@@ -1,0 +1,57 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'c8302293d1a380dbb3c7c792f8cd6f04' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"uncosnews","parent":0,"controller":"controllers\\/index","haslayout":1,"lang_topics":"uncosnews:default","assets":"","help_url":""}',
+        'guid' => 'a886bbed0b46eaea6e173f7004576a6a',
+        'native_key' => 1,
+        'signature' => '3c421a4ed188a31fd8b56f82d50e9e41',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'uncosnews',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"uncosnews-1.0-rc1\\/modMenu\\/33733595ad0bffb5558fdf500ac137f1.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1ad5558552ed1ecf86a799e7006df495',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '33733595ad0bffb5558fdf500ac137f1',
+  'native_key' => 'uncosnews',
+  'object' => '{"text":"uncosnews","parent":"components","action":1,"description":"uncosnews.desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":""}',
+);

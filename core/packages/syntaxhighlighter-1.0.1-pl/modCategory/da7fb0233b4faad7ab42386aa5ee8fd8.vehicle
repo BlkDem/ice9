@@ -1,0 +1,79 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '07860b908ad6232260ba3032b042f839' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"SyntaxHighlighter","description":"SyntaxHighlighter 1.0.1-pl A Revolution version of Alex Gorbatchev\'s JS Syntax Highlighter","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * SyntaxHighlighter snippet\\n *\\n * Copyright 2011-2015 Bob Ray <http:\\/\\/bobsguides.com>\\n *\\n * @author Bob Ray <http:\\/\\/bobsguides.com>\\n * @version Version 1.0.1 Beta-1\\n * 09\\/30\\/2015\\n *\\n * SyntaxHighlighter is free software; you can redistribute it and\\/or modify it\\n * under the terms of the GNU General Public License as published by the Free\\n * Software Foundation; either version 2 of the License, or (at your option) any\\n * later version.\\n *\\n * SyntaxHighlighter is distributed in the hope that it will be useful, but WITHOUT ANY\\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\\n * A PARTICULAR PURPOSE. See the GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * SyntaxHighlighter; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package syntaxhighlighter\\n *\\/\\n\\n\\/**\\n * MODx SyntaxHighlighter snippet\\n *\\n * Description: Revolution version of Alex Gorbatchev\'s Syntax Highlighter JS script\\n *\\n * @package syntaxhighlighter\\n *\\n * @property $brushes (string) comma-separated list of brushes to load\\n * @property $theme (string) name of theme (Default, Django, Eclipse, Emacs, FadeToGrey, MDUltra, Midnight, RDark)\\n *\\/\\n\\n\\/** @var  $modx modX *\\/\\n\\/** @var  $scriptProperties array *\\/\\n\\n\\n$default_theme = $modx->getOption(\'syntaxhighlighter.theme\', null, \'Default\', true);\\n$theme = $modx->getOption(\'theme\', $scriptProperties, \'\', true);\\n$theme = !empty($theme) ? $theme : $default_theme;\\n\\n$brushes = empty($scriptProperties[\'brushes\'])? \'JScript,Xml,Php,Css,Plain\' : $scriptProperties[\'brushes\'];\\n\\n$brushArray = explode(\',\', $brushes);\\n\\n$baseURL = $modx->getOption(\'sh.assets_url\', null, $modx->getOption(\'assets_url\') . \'components\\/syntaxhighlighter\\/\');\\n\\n$modx->regClientStartupScript($baseURL . \'scripts\\/shCore.js\');\\n\\nforeach($brushArray as $brush) {\\n    $modx->regClientStartupScript($baseURL . \'scripts\\/\' . \'shBrush\' . $brush . \'.js\');\\n}\\n\\n$modx->regClientCss($baseURL . \'css\\/\' . \'core.css\' );\\n$modx->regClientCss($baseURL . \'css\\/theme\\/\' . \\"$theme.css\\" );\\n$modx->regClientScript(\'<script type=\\"text\\/javascript\\">\\n     SyntaxHighlighter.all();\\n<\\/script>\');\\n\\nreturn \'\';","locked":0,"properties":"a:1:{s:7:\\"brushes\\";a:7:{s:4:\\"name\\";s:7:\\"brushes\\";s:4:\\"desc\\";s:15:\\"sh_brushes_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:25:\\"JScript,Xml,Php,Css,Plain\\";s:7:\\"lexicon\\";s:28:\\"syntaxhighlighter:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * SyntaxHighlighter snippet\\n *\\n * Copyright 2011-2015 Bob Ray <http:\\/\\/bobsguides.com>\\n *\\n * @author Bob Ray <http:\\/\\/bobsguides.com>\\n * @version Version 1.0.1 Beta-1\\n * 09\\/30\\/2015\\n *\\n * SyntaxHighlighter is free software; you can redistribute it and\\/or modify it\\n * under the terms of the GNU General Public License as published by the Free\\n * Software Foundation; either version 2 of the License, or (at your option) any\\n * later version.\\n *\\n * SyntaxHighlighter is distributed in the hope that it will be useful, but WITHOUT ANY\\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\\n * A PARTICULAR PURPOSE. See the GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * SyntaxHighlighter; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package syntaxhighlighter\\n *\\/\\n\\n\\/**\\n * MODx SyntaxHighlighter snippet\\n *\\n * Description: Revolution version of Alex Gorbatchev\'s Syntax Highlighter JS script\\n *\\n * @package syntaxhighlighter\\n *\\n * @property $brushes (string) comma-separated list of brushes to load\\n * @property $theme (string) name of theme (Default, Django, Eclipse, Emacs, FadeToGrey, MDUltra, Midnight, RDark)\\n *\\/\\n\\n\\/** @var  $modx modX *\\/\\n\\/** @var  $scriptProperties array *\\/\\n\\n\\n$default_theme = $modx->getOption(\'syntaxhighlighter.theme\', null, \'Default\', true);\\n$theme = $modx->getOption(\'theme\', $scriptProperties, \'\', true);\\n$theme = !empty($theme) ? $theme : $default_theme;\\n\\n$brushes = empty($scriptProperties[\'brushes\'])? \'JScript,Xml,Php,Css,Plain\' : $scriptProperties[\'brushes\'];\\n\\n$brushArray = explode(\',\', $brushes);\\n\\n$baseURL = $modx->getOption(\'sh.assets_url\', null, $modx->getOption(\'assets_url\') . \'components\\/syntaxhighlighter\\/\');\\n\\n$modx->regClientStartupScript($baseURL . \'scripts\\/shCore.js\');\\n\\nforeach($brushArray as $brush) {\\n    $modx->regClientStartupScript($baseURL . \'scripts\\/\' . \'shBrush\' . $brush . \'.js\');\\n}\\n\\n$modx->regClientCss($baseURL . \'css\\/\' . \'core.css\' );\\n$modx->regClientCss($baseURL . \'css\\/theme\\/\' . \\"$theme.css\\" );\\n$modx->regClientScript(\'<script type=\\"text\\/javascript\\">\\n     SyntaxHighlighter.all();\\n<\\/script>\');\\n\\nreturn \'\';"}',
+        'guid' => '0b313d4a90ad6c86441a4c709614e623',
+        'native_key' => 1,
+        'signature' => '1a367681bfd646d5c1df445be8d623f7',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      'd8d6a486831490fd08ca593ece265003' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"SyntaxHighlighter","description":"SyntaxHighlighter 1.0.1-pl A Revolution version of Alex Gorbatchev\'s JS Syntax Highlighter","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * SyntaxHighlighter plugin\\n *\\n * Copyright 2011-2015 Bob Ray <http:\\/\\/bobsguides.com>\\n *\\n * @author Bob Ray <http:\\/\\/bobsguides.com>\\n * @version Version 1.0.0 Beta-1\\n * 11\\/07\\/2011\\n *\\n * SyntaxHighlighter is free software; you can redistribute it and\\/or modify it\\n * under the terms of the GNU General Public License as published by the Free\\n * Software Foundation; either version 2 of the License, or (at your option) any\\n * later version.\\n *\\n * SyntaxHighlighter is distributed in the hope that it will be useful, but WITHOUT ANY\\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\\n * A PARTICULAR PURPOSE. See the GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * SyntaxHighlighter; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package syntaxhighlighter\\n *\\/\\n\\n\\/**\\n * MODx SyntaxHighlighter plugin\\n *\\n * Description: Revolution version of Alex Gorbatchev\'s Syntax Highlighter JS script\\n * Events: OnLoadWebDocument\\n *\\n * @package syntaxhighlighter\\n *\\n * @property $brushes (string) comma-separated list of brushes to load (AppleScript, AS3, Bash, ColdFusion, Cpp, CSharp, Css, Delphi, Diff, Erlang, Groovy, Java, JavaFX, JScript, Perl, Php, Plain, PowerShell, Python, Ruby, Sass, Scala, Sql, Vb, Xml_\\n *\\n * @property $theme (string) name of theme (Default, Django, Eclipse, Emacs, FadeToGrey, MDUltra, Midnight, RDark)\\n *\\/\\n\\n\\/** @var  $modx modX *\\/\\n\\/** @var  $scriptProperties array *\\/\\n\\n\\n$default_theme = $modx->getOption(\'syntaxhighlighter.theme\', null, \'Default\', true);\\n$theme = $modx->getOption(\'theme\', $scriptProperties, \'\', true);\\n$theme = !empty($theme) ? $theme : $default_theme;\\n\\n$brushes = empty($scriptProperties[\'brushes\'])? \'JScript,Xml,Php,Css,Plain\' : $scriptProperties[\'brushes\'];\\n\\n$brushArray = explode(\',\', $brushes);\\n\\n$baseURL = $modx->getOption(\'sh.assets_url\', null, $modx->getOption(\'assets_url\') . \'components\\/syntaxhighlighter\\/\');\\n\\n$modx->regClientStartupScript($baseURL . \'scripts\\/shCore.js\');\\n\\nforeach($brushArray as $brush) {\\n    $modx->regClientStartupScript($baseURL . \'scripts\\/\' . \'shBrush\' . $brush . \'.js\');\\n}\\n\\n$modx->regClientCss($baseURL . \'css\\/\' . \'core.css\' );\\n$modx->regClientCss($baseURL . \'css\\/theme\\/\' . \\"$theme.css\\" );\\n$modx->regClientScript(\'<script type=\\"text\\/javascript\\">\\n     SyntaxHighlighter.all();\\n<\\/script>\');\\n\\nreturn \'\';","locked":0,"properties":"a:1:{s:7:\\"brushes\\";a:7:{s:4:\\"name\\";s:7:\\"brushes\\";s:4:\\"desc\\";s:15:\\"sh_brushes_desc\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:25:\\"JScript,Xml,Php,Css,Plain\\";s:7:\\"lexicon\\";s:28:\\"syntaxhighlighter:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","disabled":1,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * SyntaxHighlighter plugin\\n *\\n * Copyright 2011-2015 Bob Ray <http:\\/\\/bobsguides.com>\\n *\\n * @author Bob Ray <http:\\/\\/bobsguides.com>\\n * @version Version 1.0.0 Beta-1\\n * 11\\/07\\/2011\\n *\\n * SyntaxHighlighter is free software; you can redistribute it and\\/or modify it\\n * under the terms of the GNU General Public License as published by the Free\\n * Software Foundation; either version 2 of the License, or (at your option) any\\n * later version.\\n *\\n * SyntaxHighlighter is distributed in the hope that it will be useful, but WITHOUT ANY\\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\\n * A PARTICULAR PURPOSE. See the GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * SyntaxHighlighter; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package syntaxhighlighter\\n *\\/\\n\\n\\/**\\n * MODx SyntaxHighlighter plugin\\n *\\n * Description: Revolution version of Alex Gorbatchev\'s Syntax Highlighter JS script\\n * Events: OnLoadWebDocument\\n *\\n * @package syntaxhighlighter\\n *\\n * @property $brushes (string) comma-separated list of brushes to load (AppleScript, AS3, Bash, ColdFusion, Cpp, CSharp, Css, Delphi, Diff, Erlang, Groovy, Java, JavaFX, JScript, Perl, Php, Plain, PowerShell, Python, Ruby, Sass, Scala, Sql, Vb, Xml_\\n *\\n * @property $theme (string) name of theme (Default, Django, Eclipse, Emacs, FadeToGrey, MDUltra, Midnight, RDark)\\n *\\/\\n\\n\\/** @var  $modx modX *\\/\\n\\/** @var  $scriptProperties array *\\/\\n\\n\\n$default_theme = $modx->getOption(\'syntaxhighlighter.theme\', null, \'Default\', true);\\n$theme = $modx->getOption(\'theme\', $scriptProperties, \'\', true);\\n$theme = !empty($theme) ? $theme : $default_theme;\\n\\n$brushes = empty($scriptProperties[\'brushes\'])? \'JScript,Xml,Php,Css,Plain\' : $scriptProperties[\'brushes\'];\\n\\n$brushArray = explode(\',\', $brushes);\\n\\n$baseURL = $modx->getOption(\'sh.assets_url\', null, $modx->getOption(\'assets_url\') . \'components\\/syntaxhighlighter\\/\');\\n\\n$modx->regClientStartupScript($baseURL . \'scripts\\/shCore.js\');\\n\\nforeach($brushArray as $brush) {\\n    $modx->regClientStartupScript($baseURL . \'scripts\\/\' . \'shBrush\' . $brush . \'.js\');\\n}\\n\\n$modx->regClientCss($baseURL . \'css\\/\' . \'core.css\' );\\n$modx->regClientCss($baseURL . \'css\\/theme\\/\' . \\"$theme.css\\" );\\n$modx->regClientScript(\'<script type=\\"text\\/javascript\\">\\n     SyntaxHighlighter.all();\\n<\\/script>\');\\n\\nreturn \'\';"}',
+        'guid' => '4b4018243ce1c2f75e5a695980f0d308',
+        'native_key' => 1,
+        'signature' => '4f0fd28328c9de4d0644597f6da9ca1a',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'syntaxhighlighter',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"syntaxhighlighter-1.0.1-pl\\/modCategory\\/da7fb0233b4faad7ab42386aa5ee8fd8.install.script.resolver","type":"php","name":"install.script"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"syntaxhighlighter-1.0.1-pl\\/modCategory\\/da7fb0233b4faad7ab42386aa5ee8fd8\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"syntaxhighlighter"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"syntaxhighlighter-1.0.1-pl\\/modCategory\\/da7fb0233b4faad7ab42386aa5ee8fd8\\/2\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"syntaxhighlighter"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fd804da6f41fed201fbfcb73c70d63e2',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'da7fb0233b4faad7ab42386aa5ee8fd8',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"SyntaxHighlighter","rank":0}',
+);
